@@ -1,0 +1,18 @@
+Title:           
+Creator:         wkhtmltopdf 0.12.6
+Producer:        Qt 5.15.13
+CreationDate:    Sat Jun 20 18:16:31 2026 UTC
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           375
+Encrypted:       no
+Page size:       595 x 842 pts (A4)
+Page rot:        0
+File size:       1161215 bytes
+Optimized:       no
+PDF version:     1.4

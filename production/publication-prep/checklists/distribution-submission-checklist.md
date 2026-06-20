@@ -4,8 +4,8 @@ Use after EPUB and print files are validated.
 
 ## 1) Metadata lock
 
-- [ ] `metadata/retailer-metadata.csv` completed (no `TBD` values)
-- [ ] ISBNs assigned per format
+- [x] `metadata/retailer-metadata.csv` completed (no `TBD` values)
+- [x] ISBNs assigned per format
 - [ ] BISAC categories verified against target retailer taxonomy
 - [ ] Keywords reviewed for platform-specific limits
 - [ ] Author name, series name, subtitles, and casing normalized
@@ -19,14 +19,14 @@ Use after EPUB and print files are validated.
 
 ## 3) File package lock
 
-- [ ] EPUB file paths:
-  - [ ] Book One: ____________________
-  - [ ] Book Two: ____________________
-  - [ ] Book Three: ____________________
-- [ ] Print interior PDF paths:
-  - [ ] Book One: ____________________
-  - [ ] Book Two: ____________________
-  - [ ] Book Three: ____________________
+- [x] EPUB file paths:
+  - [x] Book One: `production/publication-prep/exports/epub/baren-sump-book-1-the-last-president_v1.epub`
+  - [x] Book Two: `production/publication-prep/exports/epub/baren-sump-book-2-children-of-tomorrow_v1.epub`
+  - [x] Book Three: `production/publication-prep/exports/epub/baren-sump-book-3-the-black-path_v1.epub`
+- [x] Print interior PDF paths:
+  - [x] Book One: `production/publication-prep/exports/pdf/baren-sump-book-1-interior-print_v1.pdf`
+  - [x] Book Two: `production/publication-prep/exports/pdf/baren-sump-book-2-interior-print_v1.pdf`
+  - [x] Book Three: `production/publication-prep/exports/pdf/baren-sump-book-3-interior-print_v1.pdf`
 - [ ] Print cover wrap PDF paths:
   - [ ] Book One: ____________________
   - [ ] Book Two: ____________________
@@ -51,7 +51,7 @@ Use after EPUB and print files are validated.
 ## 6) Final go/no-go sign-off
 
 - [ ] No unresolved platform warnings
-- [ ] No file validation errors
+- [x] No file validation errors
 - [ ] Launch date confirmed
 - [ ] Team/author sign-off captured
 

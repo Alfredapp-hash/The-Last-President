@@ -30,10 +30,10 @@ Reference: `production/publication-prep/audit/SUMMARY.md`
 - [x] Fill ISBN values in `metadata/retailer-metadata.csv`
 - [ ] Confirm BISAC codes against distributor UI
 - [x] Set publication dates and pricing
-- [ ] Export final EPUBs and validate with EPUBCheck
-- [ ] Export final print-ready interiors and cover wraps
+- [x] Export final EPUBs and validate with EPUBCheck
+- [ ] Export final print-ready interiors and cover wraps (interior complete, cover wraps pending)
 - [ ] Upload to distribution platforms
 
 ## Status
 
-**READY FOR EXPORT + DISTRIBUTION UPLOAD**
+**READY FOR DISTRIBUTION UPLOAD (COVER WRAPS PENDING)**
