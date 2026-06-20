@@ -1,6 +1,6 @@
 # Cover Wrap Specs
 
-Generated: 2026-06-20 21:09 UTC
+Generated: 2026-06-20 21:16 UTC
 
 Assumptions:
 

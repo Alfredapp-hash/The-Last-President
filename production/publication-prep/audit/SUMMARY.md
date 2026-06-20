@@ -1,6 +1,6 @@
 # Final Publication-Prep Pass — Trilogy QA Summary
 
-Date: 2026-06-20 16:18 UTC
+Date: 2026-06-20 21:15 UTC
 
 | Book | Reader words | Heading gaps | Subtitle gaps | Token flags | Status | Report |
 |------|--------------|--------------|---------------|------------:|--------|--------|
