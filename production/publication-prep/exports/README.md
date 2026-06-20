@@ -16,6 +16,13 @@ This folder contains generated distribution files and validation artifacts.
 - `pdf/baren-sump-book-2-interior-print_v1.pdf`
 - `pdf/baren-sump-book-3-interior-print_v1.pdf`
 
+### Print cover wraps
+
+- `covers/the-last-president-cover-wrap_v1.pdf`
+- `covers/children-of-tomorrow-cover-wrap_v1.pdf`
+- `covers/the-black-path-cover-wrap_v1.pdf`
+- `covers/COVER_WRAP_SPECS.md`
+
 ### Validation artifacts
 
 - `EXPORT_VALIDATION_REPORT.md`
@@ -29,3 +36,7 @@ EPUB generation uses Pandoc and the ID-normalization Lua filter:
 - `scripts/pandoc_unique_ids.lua`
 
 Book Three requires this filter to avoid duplicate heading IDs in EPUB XHTML output.
+
+Cover-wrap generation uses:
+
+- `scripts/generate_cover_wraps.py`

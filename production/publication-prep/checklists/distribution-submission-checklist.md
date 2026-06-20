@@ -27,10 +27,10 @@ Use after EPUB and print files are validated.
   - [x] Book One: `production/publication-prep/exports/pdf/baren-sump-book-1-interior-print_v1.pdf`
   - [x] Book Two: `production/publication-prep/exports/pdf/baren-sump-book-2-interior-print_v1.pdf`
   - [x] Book Three: `production/publication-prep/exports/pdf/baren-sump-book-3-interior-print_v1.pdf`
-- [ ] Print cover wrap PDF paths:
-  - [ ] Book One: ____________________
-  - [ ] Book Two: ____________________
-  - [ ] Book Three: ____________________
+- [x] Print cover wrap PDF paths:
+  - [x] Book One: `production/publication-prep/exports/covers/the-last-president-cover-wrap_v1.pdf`
+  - [x] Book Two: `production/publication-prep/exports/covers/children-of-tomorrow-cover-wrap_v1.pdf`
+  - [x] Book Three: `production/publication-prep/exports/covers/the-black-path-cover-wrap_v1.pdf`
 
 ## 4) Platform submissions
 
