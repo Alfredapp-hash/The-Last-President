@@ -2,16 +2,16 @@
 
 **Baren Sump and The Last President** — a completed literary thriller trilogy (~232,000 words, 84 chapters).
 
-- **Website:** [thesumpledger.com](https://thesumpledger.com) (Next.js app in `/site`)
+- **Website:** [thesumpledger.com](https://thesumpledger.com) (Next.js app at repo root)
 - **Manuscripts:** Final production `.docx` files in `/production/books`
 - **Marketing:** Press kit, social copy, and email templates in `/production/marketing`
 
 ## Deploy the site (Vercel)
 
-This repo is configured for Vercel with `rootDirectory: site`. Connect the GitHub repo and deploy—Vercel will build the landing page automatically.
+This repo is configured for Vercel with Next.js at the repository root. Connect the GitHub repo and deploy—Vercel will build the landing page automatically.
 
 ```bash
-cd site && npm install && npm run dev
+npm install && npm run dev
 ```
 
 ## Manuscript packages
