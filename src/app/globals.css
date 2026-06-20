@@ -1,10 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0c0b0a;
-  --foreground: #e8e4dc;
-  --accent-red: #8b2635;
-  --accent-gold: #c4a35a;
+  --background: #070605;
+  --foreground: #ece8df;
+  --muted: #8a8578;
+  --border: #2a2724;
+  --card: #0f0e0c;
+  --card-hover: #141210;
+  --accent-red: #9e2b3c;
+  --accent-gold: #c9a962;
+  --accent-green: #5a7a52;
+  --glow-red: #9e2b3c33;
+  --glow-gold: #c9a96222;
 }
 
 @theme inline {
@@ -12,6 +19,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-cormorant);
+  --font-mono: var(--font-ibm-plex-mono);
 }
 
 html {
@@ -25,10 +33,121 @@ body {
 }
 
 .font-serif {
-  font-family: var(--font-cormorant), Georgia, serif;
+  font-family: var(--font-cormorant), Georgia, "Times New Roman", serif;
+}
+
+.font-mono {
+  font-family: var(--font-ibm-plex-mono), ui-monospace, monospace;
 }
 
 ::selection {
-  background: #8b263540;
+  background: #9e2b3c55;
   color: #fff;
+}
+
+/* Film grain overlay */
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Evidence card styling */
+.evidence-card {
+  background: linear-gradient(
+    145deg,
+    #1a1512 0%,
+    #0d0b0a 40%,
+    #12100e 100%
+  );
+  box-shadow:
+    inset 0 1px 0 #ffffff08,
+    0 24px 48px -12px #00000080,
+    0 0 0 1px #ffffff06;
+}
+
+.evidence-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 30% 20%,
+    #9e2b3c15 0%,
+    transparent 60%
+  );
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Section label */
+.section-label {
+  letter-spacing: 0.35em;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Fade-in animation */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out both;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fade-up 0.8s ease-out 0.1s both;
+}
+
+.animate-fade-up-delay-2 {
+  animation: fade-up 0.8s ease-out 0.2s both;
+}
+
+.animate-fade-up-delay-3 {
+  animation: fade-up 0.8s ease-out 0.35s both;
+}
+
+/* Book card hover glow */
+.book-card {
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Arc connector line */
+.arc-line {
+  background: linear-gradient(
+    90deg,
+    var(--accent-red) 0%,
+    var(--accent-gold) 50%,
+    var(--accent-green) 100%
+  );
+  height: 1px;
+  opacity: 0.4;
+}
+
+/* Quote mark */
+.quote-mark {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--accent-red);
+  opacity: 0.35;
 }
