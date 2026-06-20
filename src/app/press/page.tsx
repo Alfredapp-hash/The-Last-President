@@ -5,7 +5,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Press Kit",
-  description: "Media resources for Baren Sump and The Last President trilogy.",
+  description:
+    "Media resources for Baren Sump and The Last President — complete trilogy, ~232,600 words.",
 };
 
 export default function PressPage() {
@@ -14,55 +15,63 @@ export default function PressPage() {
       <Header />
       <main className="px-6 pt-28 pb-24">
         <div className="mx-auto max-w-3xl">
-          <p className="text-xs tracking-[0.35em] text-stone-500 uppercase">
-            Media Resources
-          </p>
-          <h1 className="mt-4 font-serif text-4xl text-stone-100">Press Kit</h1>
-          <p className="mt-6 text-stone-400 leading-relaxed">
-            {site.seriesTitle} is a completed literary thriller trilogy (~232,600
-            words). Use the materials below for reviews, interviews, and catalog
-            copy.
+          <p className="section-label">Media Resources</p>
+          <h1 className="mt-4 font-serif text-4xl text-[#ece8df] md:text-5xl">
+            Press Kit
+          </h1>
+          <p className="mt-6 text-[#8a8578] leading-relaxed">
+            {site.seriesTitle} is a completed literary thriller trilogy
+            (~232,600 words, 84 chapters). Production ready for query and beta.
           </p>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-stone-200">At a glance</h2>
-            <dl className="mt-6 divide-y divide-stone-800 rounded-lg border border-stone-800">
+            <h2 className="font-serif text-2xl text-[#ece8df]">At a glance</h2>
+            <dl className="mt-6 divide-y divide-[#2a2724] rounded-sm border border-[#2a2724] bg-[#0f0e0c]">
               {pressFacts.map(({ label, value }) => (
                 <div key={label} className="grid grid-cols-3 gap-4 px-6 py-4">
-                  <dt className="text-sm text-stone-500">{label}</dt>
-                  <dd className="col-span-2 text-sm text-stone-300">{value}</dd>
+                  <dt className="font-mono text-[11px] tracking-wide text-[#8a8578] uppercase">
+                    {label}
+                  </dt>
+                  <dd className="col-span-2 text-sm text-[#ece8df]/90">
+                    {value}
+                  </dd>
                 </div>
               ))}
             </dl>
           </section>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-stone-200">Series logline</h2>
-            <p className="mt-4 rounded-lg border border-stone-800 bg-[#121110] p-6 font-serif text-lg italic text-stone-300">
-              When a dying inventor leaves a scorched prediction naming a monitored
-              child and the phrase THE LAST PRESIDENT, a dynasty, a court, and a
-              country must decide whether Baren Sump is prophecy, evidence, or
-              simply a boy who refuses to remain available.
+            <h2 className="font-serif text-2xl text-[#ece8df]">
+              Series logline
+            </h2>
+            <p className="mt-4 rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-6 font-serif text-lg italic leading-relaxed text-[#ece8df]/90">
+              {site.logline}
             </p>
           </section>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-stone-200">Book blurbs</h2>
-            <div className="mt-6 space-y-8">
+            <h2 className="font-serif text-2xl text-[#ece8df]">Book blurbs</h2>
+            <div className="mt-6 space-y-6">
               {books.map((book) => (
                 <article
                   key={book.id}
-                  className="rounded-lg border border-stone-800 p-6"
+                  className="rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-6"
+                  style={{ borderLeftColor: book.accent, borderLeftWidth: 3 }}
                 >
-                  <h3 className="font-serif text-xl text-stone-100">
+                  <h3 className="font-serif text-xl text-[#ece8df]">
                     {book.subtitle}: {book.title}
                   </h3>
-                  <p className="mt-2 text-sm italic text-[#c4a35a]">{book.hook}</p>
-                  <p className="mt-4 text-sm leading-relaxed text-stone-400">
+                  <p
+                    className="mt-2 font-serif text-base italic"
+                    style={{ color: book.accent }}
+                  >
+                    &ldquo;{book.controlling}&rdquo;
+                  </p>
+                  <p className="mt-4 text-sm leading-relaxed text-[#8a8578]">
                     {book.blurb}
                   </p>
-                  <p className="mt-3 text-xs text-stone-600">
-                    {book.chapters} · {book.wordCount}
+                  <p className="mt-3 font-mono text-[10px] tracking-wide text-[#8a8578]/70 uppercase">
+                    {book.chapters} · {book.wordCount} words
                   </p>
                 </article>
               ))}
@@ -70,19 +79,19 @@ export default function PressPage() {
           </section>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-stone-200">
+            <h2 className="font-serif text-2xl text-[#ece8df]">
               Pull quotes (approved)
             </h2>
             <ul className="mt-6 space-y-4">
               {pullQuotes.map((q) => (
                 <li
                   key={q.text}
-                  className="border-l-2 border-[#8b2635] pl-4 text-stone-400"
+                  className="border-l-2 border-[#9e2b3c] pl-4"
                 >
-                  <span className="font-serif italic text-stone-300">
+                  <span className="font-serif italic text-[#ece8df]/90">
                     &ldquo;{q.text}&rdquo;
                   </span>
-                  <span className="mt-1 block text-xs text-stone-600">
+                  <span className="mt-1 block font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
                     {q.source}
                   </span>
                 </li>
@@ -91,12 +100,12 @@ export default function PressPage() {
           </section>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-stone-200">Contact</h2>
-            <p className="mt-4 text-stone-400">
+            <h2 className="font-serif text-2xl text-[#ece8df]">Contact</h2>
+            <p className="mt-4 text-[#8a8578]">
               Review copies, interview requests, and rights inquiries:{" "}
               <a
                 href={`mailto:${site.contactEmail}?subject=Press%20Inquiry%20-%20Sump%20Ledger`}
-                className="text-[#c4a35a] underline underline-offset-4"
+                className="text-[#c9a962] underline underline-offset-4 transition hover:text-[#dbb872]"
               >
                 {site.contactEmail}
               </a>
