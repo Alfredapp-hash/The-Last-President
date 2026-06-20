@@ -12,6 +12,11 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Additional generated artifacts in this repo:
+    "site/.next/**",
+    "site/out/**",
+    "site/build/**",
+    "production/publication-prep/exports/**",
   ]),
 ]);
 

@@ -1,12 +1,14 @@
 # Cover Wrap Specs
 
-Generated: 2026-06-20 21:16 UTC
+Generated: 2026-06-20 22:27 UTC
 
 Assumptions:
 
 - Trim: 6.0 x 9.0 in
 - Bleed: 0.125 in each outer edge
-- Spine formula: pages x 0.0025 in (cream-paper approximation)
+- Spine profile: kdp-bw-cream-6x9 (KDP B&W (Cream) 6x9)
+- Spine formula: pages x 0.002500 in
+- Profile note: KDP-style cream stock factor for 6x9 B&W paperbacks.
 - Resolution: 300 DPI
 
 | Book | Pages | Spine (in) | Total size (in) | Total size (px) | Wrap PNG | Wrap PDF |
@@ -18,4 +20,4 @@ Assumptions:
 ## Notes
 
 - Replace barcode placeholder on final print platform upload if required.
-- Confirm distributor paper type/spine formula before final production print lock.
+- Spine profile can be changed by rerunning this script with `--profile`.

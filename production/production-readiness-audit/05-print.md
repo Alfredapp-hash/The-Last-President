@@ -1,15 +1,16 @@
 # Print Production Agent
 
-Status: **CONDITIONAL**
+Status: **PASS**
 
-Summary: Print package is complete with one pre-upload verification condition.
+Summary: Print package artifacts are complete with explicit spine profile documentation.
 
 ## Findings
 - book-1: interior PDF pages=375
 - book-2: interior PDF pages=459
 - book-3: interior PDF pages=364
 - Cover wrap specs file present.
-- Spine formula is an approximation; verify against final distributor paper profile.
+- Spine profile declared: kdp-bw-cream-6x9 (KDP B&W (Cream) 6x9)
+- Spine formula declared: pages x 0.002500 in
 
 ## Blockers
 - None

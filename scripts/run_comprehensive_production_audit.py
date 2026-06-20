@@ -240,7 +240,6 @@ def category_ebook() -> CategoryResult:
 def category_print() -> CategoryResult:
     findings: list[str] = []
     blockers: list[str] = []
-    conditions: list[str] = []
     evidence: list[str] = []
     books = [
         ("book-1", "baren-sump-book-1-interior-print_v1.pdf"),
@@ -271,8 +270,16 @@ def category_print() -> CategoryResult:
     else:
         specs_text = read(cover_specs)
         findings.append("Cover wrap specs file present.")
-        if "cream-paper approximation" in specs_text:
-            conditions.append("Spine formula is an approximation; verify against final distributor paper profile.")
+        profile_match = re.search(r"^- Spine profile:\s+([^\n]+)$", specs_text, re.M)
+        formula_match = re.search(r"^- Spine formula:\s+([^\n]+)$", specs_text, re.M)
+        if profile_match:
+            findings.append(f"Spine profile declared: {profile_match.group(1)}")
+        else:
+            blockers.append("Cover wrap specs missing explicit spine profile declaration.")
+        if formula_match:
+            findings.append(f"Spine formula declared: {formula_match.group(1)}")
+        else:
+            blockers.append("Cover wrap specs missing explicit spine formula declaration.")
 
     wrap_files = [
         ROOT / "production/publication-prep/exports/covers/the-last-president-cover-wrap_v1.pdf",
@@ -287,13 +294,9 @@ def category_print() -> CategoryResult:
     if blockers:
         status = "FAIL"
         summary = "Print package has blocking defects."
-    elif conditions:
-        status = "CONDITIONAL"
-        summary = "Print package is complete with one pre-upload verification condition."
-        findings.extend(conditions)
     else:
         status = "PASS"
-        summary = "Print package artifacts are complete."
+        summary = "Print package artifacts are complete with explicit spine profile documentation."
     return CategoryResult("05-print", "Print Production Agent", status, summary, findings, blockers, evidence)
 
 

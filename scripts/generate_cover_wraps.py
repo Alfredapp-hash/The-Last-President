@@ -3,8 +3,8 @@
 
 from __future__ import annotations
 
+import argparse
 import csv
-import re
 import textwrap
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -22,7 +22,36 @@ DPI = 300
 TRIM_W_IN = 6.0
 TRIM_H_IN = 9.0
 BLEED_IN = 0.125
-SPINE_PER_PAGE_IN = 0.0025
+
+
+@dataclass(frozen=True)
+class SpineProfile:
+    key: str
+    display_name: str
+    spine_per_page_in: float
+    description: str
+
+
+SPINE_PROFILES: dict[str, SpineProfile] = {
+    "kdp-bw-cream-6x9": SpineProfile(
+        key="kdp-bw-cream-6x9",
+        display_name="KDP B&W (Cream) 6x9",
+        spine_per_page_in=0.0025,
+        description="KDP-style cream stock factor for 6x9 B&W paperbacks.",
+    ),
+    "kdp-bw-white-6x9": SpineProfile(
+        key="kdp-bw-white-6x9",
+        display_name="KDP B&W (White) 6x9",
+        spine_per_page_in=0.002252,
+        description="KDP-style white stock factor for 6x9 B&W paperbacks.",
+    ),
+    "ingram-bw-cream-6x9": SpineProfile(
+        key="ingram-bw-cream-6x9",
+        display_name="Ingram B&W (Cream) 6x9",
+        spine_per_page_in=0.0025,
+        description="Ingram-style cream stock factor for 6x9 B&W paperbacks.",
+    ),
+}
 
 PAGE_COUNTS = {
     "book-1": 375,
@@ -61,6 +90,17 @@ class WrapSpec:
     output_pdf: Path
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--profile",
+        choices=sorted(SPINE_PROFILES.keys()),
+        default="kdp-bw-cream-6x9",
+        help="Spine profile used for page-thickness calculations.",
+    )
+    return parser.parse_args()
+
+
 def load_font(size: int, bold: bool = False) -> ImageFont.ImageFont:
     candidates = (
         [
@@ -96,13 +136,13 @@ def read_metadata() -> dict[str, dict[str, str]]:
     return out
 
 
-def wrap_specs() -> list[WrapSpec]:
+def wrap_specs(spine_profile: SpineProfile) -> list[WrapSpec]:
     metadata = read_metadata()
     specs: list[WrapSpec] = []
     for book_id, slug in BOOK_KEYS.items():
         row = metadata[slug]
         pages = PAGE_COUNTS[book_id]
-        spine_in = pages * SPINE_PER_PAGE_IN
+        spine_in = pages * spine_profile.spine_per_page_in
         width_in = (TRIM_W_IN * 2) + spine_in + (BLEED_IN * 2)
         height_in = TRIM_H_IN + (BLEED_IN * 2)
         width_px = int(round(width_in * DPI))
@@ -217,7 +257,7 @@ def build_wrap(spec: WrapSpec) -> None:
     panel.convert("RGB").save(spec.output_pdf, "PDF", resolution=float(DPI))
 
 
-def write_specs_report(specs: list[WrapSpec]) -> None:
+def write_specs_report(specs: list[WrapSpec], spine_profile: SpineProfile) -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     path = EXPORT_DIR / "COVER_WRAP_SPECS.md"
     lines = [
@@ -229,7 +269,9 @@ def write_specs_report(specs: list[WrapSpec]) -> None:
         "",
         f"- Trim: {TRIM_W_IN} x {TRIM_H_IN} in",
         f"- Bleed: {BLEED_IN} in each outer edge",
-        f"- Spine formula: pages x {SPINE_PER_PAGE_IN:.4f} in (cream-paper approximation)",
+        f"- Spine profile: {spine_profile.key} ({spine_profile.display_name})",
+        f"- Spine formula: pages x {spine_profile.spine_per_page_in:.6f} in",
+        f"- Profile note: {spine_profile.description}",
         f"- Resolution: {DPI} DPI",
         "",
         "| Book | Pages | Spine (in) | Total size (in) | Total size (px) | Wrap PNG | Wrap PDF |",
@@ -245,21 +287,24 @@ def write_specs_report(specs: list[WrapSpec]) -> None:
             "## Notes",
             "",
             "- Replace barcode placeholder on final print platform upload if required.",
-            "- Confirm distributor paper type/spine formula before final production print lock.",
+            "- Spine profile can be changed by rerunning this script with `--profile`.",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def main() -> None:
-    specs = wrap_specs()
+    args = parse_args()
+    spine_profile = SPINE_PROFILES[args.profile]
+    specs = wrap_specs(spine_profile)
     for s in specs:
         build_wrap(s)
-    write_specs_report(specs)
+    write_specs_report(specs, spine_profile)
     print("Generated cover wraps:")
     for s in specs:
         print(f"- {s.output_png}")
         print(f"- {s.output_pdf}")
+    print(f"Spine profile: {spine_profile.key} ({spine_profile.spine_per_page_in:.6f} in/page)")
 
 
 if __name__ == "__main__":

@@ -1,14 +1,14 @@
 # Web Deployment Readiness Agent
 
-Status: **CONDITIONAL**
+Status: **PASS**
 
-Summary: Web deploy build is healthy, but lint scope/config needs cleanup.
+Summary: Web deploy build and lint are healthy.
 
 ## Findings
 - next build exit code: 0
 - Next.js production build succeeded.
-- eslint exit code: 1
-- Lint failing (exit 1) with 54 references to generated .next artifacts; lint scope should ignore build output directories.
+- eslint exit code: 0
+- ESLint passed.
 
 ## Blockers
 - None
