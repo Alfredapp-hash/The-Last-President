@@ -1,0 +1,6 @@
+book-three — Final Production Pass
+Date: 2026-06-20
+Run-boundary / text fixes: 0
+
+- Removed duplicate title-page line
+- Renamed to FINAL_READER_COPY / AUTHOR_PRODUCTION_MASTER
