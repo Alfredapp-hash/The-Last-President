@@ -35,12 +35,12 @@ The black path is not a tunnel—it is a refusal. Baren will not remain availabl
 - Genre: political-psychological thriller / literary speculative fiction
 - Reader promise: anti-climax by design, refusal narrative, ordinary-life endgame
 
-## Placeholder fields (complete before upload)
+## Distribution lock values
 
-- ISBN (ebook): TBD
-- ISBN (paperback): TBD
-- ISBN (hardcover): TBD
-- Publication date: TBD
-- Publisher/imprint: TBD
-- Price (ebook/paper/hardcover): TBD
-- Territories/rights: TBD
+- ISBN (ebook): 9781739095079
+- ISBN (paperback): 9781739095086
+- ISBN (hardcover): 9781739095093
+- Publication date: 2026-11-18
+- Publisher/imprint: Alfred App Publishing
+- Price (ebook/paper/hardcover): USD 6.99 / 18.99 / 26.99
+- Territories/rights: World English

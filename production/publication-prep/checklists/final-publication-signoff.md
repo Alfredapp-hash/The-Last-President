@@ -27,13 +27,13 @@ Reference: `production/publication-prep/audit/SUMMARY.md`
 
 ## Required manual completions before upload
 
-- [ ] Fill ISBN values in `metadata/retailer-metadata.csv`
+- [x] Fill ISBN values in `metadata/retailer-metadata.csv`
 - [ ] Confirm BISAC codes against distributor UI
-- [ ] Set publication dates and pricing
+- [x] Set publication dates and pricing
 - [ ] Export final EPUBs and validate with EPUBCheck
 - [ ] Export final print-ready interiors and cover wraps
 - [ ] Upload to distribution platforms
 
 ## Status
 
-**READY FOR FINAL FORMATTING + DISTRIBUTION UPLOAD**
+**READY FOR EXPORT + DISTRIBUTION UPLOAD**

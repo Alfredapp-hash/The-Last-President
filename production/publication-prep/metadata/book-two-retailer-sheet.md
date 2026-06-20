@@ -35,12 +35,12 @@ Baren learns about a grounded plane from a cereal box. The Look-Away Ledger and 
 - Genre: legal-political thriller / literary speculative fiction
 - Reader promise: accountability narrative, institutional exposure, anti-trauma-spectacle framing
 
-## Placeholder fields (complete before upload)
+## Distribution lock values
 
-- ISBN (ebook): TBD
-- ISBN (paperback): TBD
-- ISBN (hardcover): TBD
-- Publication date: TBD
-- Publisher/imprint: TBD
-- Price (ebook/paper/hardcover): TBD
-- Territories/rights: TBD
+- ISBN (ebook): 9781739095048
+- ISBN (paperback): 9781739095055
+- ISBN (hardcover): 9781739095062
+- Publication date: 2026-10-14
+- Publisher/imprint: Alfred App Publishing
+- Price (ebook/paper/hardcover): USD 6.99 / 18.99 / 26.99
+- Territories/rights: World English

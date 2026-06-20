@@ -35,12 +35,12 @@ When inventor Nikola Veyra dies in a storm that obeys no natural law, he leaves 
 - Genre: dark political thriller / literary speculative fiction
 - Reader promise: institutional dread + moral architecture + child-centered anti-spectacle narrative
 
-## Placeholder fields (complete before upload)
+## Distribution lock values
 
-- ISBN (ebook): TBD
-- ISBN (paperback): TBD
-- ISBN (hardcover): TBD
-- Publication date: TBD
-- Publisher/imprint: TBD
-- Price (ebook/paper/hardcover): TBD
-- Territories/rights: TBD
+- ISBN (ebook): 9781739095017
+- ISBN (paperback): 9781739095024
+- ISBN (hardcover): 9781739095031
+- Publication date: 2026-09-16
+- Publisher/imprint: Alfred App Publishing
+- Price (ebook/paper/hardcover): USD 6.99 / 18.99 / 26.99
+- Territories/rights: World English
