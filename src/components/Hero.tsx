@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { evidenceArtifacts, seriesStats, site } from "@/lib/content";
+import Image from "next/image";
+import { boxSet, seriesStats, site } from "@/lib/content";
 
 export function Hero() {
   return (
@@ -56,46 +57,28 @@ export function Hero() {
           </dl>
         </div>
 
-        {/* Prediction card artifact */}
-        <div className="animate-fade-up-delay-2 relative mx-auto w-full max-w-md lg:max-w-none">
-          <div className="evidence-card relative overflow-hidden rounded-sm p-8">
-            <div className="relative z-10">
-              <div className="flex items-center justify-between border-b border-[#ffffff10] pb-4">
-                <span className="font-mono text-[10px] tracking-[0.25em] text-[#9e2b3c] uppercase">
-                  Exhibit A · Recovered
-                </span>
-                <span className="font-mono text-[10px] text-[#8a8578]">
-                  SCORCHED
-                </span>
-              </div>
-              <p className="mt-6 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-                Prediction Card · Veyra Laboratory
-              </p>
-              <dl className="mt-6 space-y-3">
-                {evidenceArtifacts.map((item) => (
-                  <div
-                    key={item.label}
-                    className="flex items-baseline justify-between gap-4 border-b border-[#ffffff06] pb-2"
-                  >
-                    <dt className="font-mono text-[10px] tracking-wider text-[#8a8578] uppercase">
-                      {item.label}
-                    </dt>
-                    <dd className="font-mono text-sm tracking-wide text-[#c9a962]">
-                      {item.value}
-                    </dd>
-                  </div>
-                ))}
-              </dl>
-              <p className="mt-8 font-serif text-lg italic text-[#ece8df]/90">
-                &ldquo;The storm arrived before the priest.&rdquo;
-              </p>
-              <p className="mt-2 font-mono text-[10px] text-[#8a8578]">
-                — Prologue, Book One
-              </p>
-            </div>
+        {/* Trilogy box set */}
+        <div className="animate-fade-up-delay-2 relative mx-auto w-full max-w-lg lg:max-w-none">
+          <div
+            className="pointer-events-none absolute inset-0 -z-10 blur-3xl"
+            aria-hidden
+            style={{
+              background:
+                "radial-gradient(ellipse 60% 50% at 50% 50%, #9e2b3c33, transparent 70%)",
+            }}
+          />
+          <div className="relative overflow-hidden rounded-sm border border-[#2a2724] shadow-[0_40px_80px_-20px_#000000cc]">
+            <Image
+              src={boxSet}
+              alt="Baren Sump trilogy — sealed evidence set"
+              width={2560}
+              height={1600}
+              priority
+              className="h-auto w-full"
+            />
           </div>
           <p className="mt-4 text-center font-mono text-[10px] tracking-widest text-[#8a8578]/60 uppercase">
-            Art direction: haunted evidence, not illustration
+            Three books · one sealed case file
           </p>
         </div>
       </div>

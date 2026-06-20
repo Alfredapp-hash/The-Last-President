@@ -32,7 +32,12 @@ export type Book = {
   themes: string[];
   accent: string;
   accentMuted: string;
+  coverImage: string;
+  coverTitled: string;
+  ogImage: string;
 };
+
+export const boxSet = "/images/covers/trilogy-box-set.png";
 
 export const books: Book[] = [
   {
@@ -57,6 +62,9 @@ export const books: Book[] = [
     ],
     accent: "#9e2b3c",
     accentMuted: "#9e2b3c22",
+    coverImage: "/images/covers/cover-book-one.png",
+    coverTitled: "/images/covers/cover-book-one-titled.png",
+    ogImage: "/images/og/og-book-one.png",
   },
   {
     id: "children-of-tomorrow",
@@ -80,6 +88,9 @@ export const books: Book[] = [
     ],
     accent: "#c9a962",
     accentMuted: "#c9a96222",
+    coverImage: "/images/covers/cover-book-two.png",
+    coverTitled: "/images/covers/cover-book-two-titled.png",
+    ogImage: "/images/og/og-book-two.png",
   },
   {
     id: "the-black-path",
@@ -103,8 +114,18 @@ export const books: Book[] = [
     ],
     accent: "#5a7a52",
     accentMuted: "#5a7a5222",
+    coverImage: "/images/covers/cover-book-three.png",
+    coverTitled: "/images/covers/cover-book-three-titled.png",
+    ogImage: "/images/og/og-book-three.png",
   },
 ];
+
+export const interiorPlates = [
+  { src: "/images/interior/interior-01-prediction-card.png", caption: "The prediction card", anchor: "Prologue" },
+  { src: "/images/interior/interior-05-the-chair.png", caption: "The chair", anchor: "Chapter Twelve" },
+  { src: "/images/interior/interior-07-windowless-courtroom.png", caption: "The windowless courtroom", anchor: "Chapter Twenty" },
+  { src: "/images/interior/interior-08-grounded-aircraft.png", caption: "The grounded aircraft", anchor: "Chapter Twenty-Four" },
+] as const;
 
 export const arcPhases = [
   {
