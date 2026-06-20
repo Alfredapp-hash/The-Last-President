@@ -1,6 +1,7 @@
+import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { books, pressFacts, pullQuotes, site } from "@/lib/content";
+import { books, boxSet, pressFacts, pullQuotes, site } from "@/lib/content";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -23,6 +24,16 @@ export default function PressPage() {
             {site.seriesTitle} is a completed literary thriller trilogy
             (~232,600 words, 84 chapters). Production ready for query and beta.
           </p>
+
+          <div className="mt-10 overflow-hidden rounded-sm border border-[#2a2724]">
+            <Image
+              src={boxSet}
+              alt="Baren Sump trilogy box set"
+              width={2560}
+              height={1600}
+              className="h-auto w-full"
+            />
+          </div>
 
           <section className="mt-16">
             <h2 className="font-serif text-2xl text-[#ece8df]">At a glance</h2>
@@ -55,24 +66,35 @@ export default function PressPage() {
               {books.map((book) => (
                 <article
                   key={book.id}
-                  className="rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-6"
+                  className="flex gap-5 rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-6"
                   style={{ borderLeftColor: book.accent, borderLeftWidth: 3 }}
                 >
-                  <h3 className="font-serif text-xl text-[#ece8df]">
-                    {book.subtitle}: {book.title}
-                  </h3>
-                  <p
-                    className="mt-2 font-serif text-base italic"
-                    style={{ color: book.accent }}
-                  >
-                    &ldquo;{book.controlling}&rdquo;
-                  </p>
-                  <p className="mt-4 text-sm leading-relaxed text-[#8a8578]">
-                    {book.blurb}
-                  </p>
-                  <p className="mt-3 font-mono text-[10px] tracking-wide text-[#8a8578]/70 uppercase">
-                    {book.chapters} · {book.wordCount} words
-                  </p>
+                  <div className="hidden w-24 shrink-0 overflow-hidden rounded-sm shadow-lg sm:block">
+                    <Image
+                      src={book.coverTitled}
+                      alt={`${book.title} cover`}
+                      width={1600}
+                      height={2560}
+                      className="h-auto w-full"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="font-serif text-xl text-[#ece8df]">
+                      {book.subtitle}: {book.title}
+                    </h3>
+                    <p
+                      className="mt-2 font-serif text-base italic"
+                      style={{ color: book.accent }}
+                    >
+                      &ldquo;{book.controlling}&rdquo;
+                    </p>
+                    <p className="mt-4 text-sm leading-relaxed text-[#8a8578]">
+                      {book.blurb}
+                    </p>
+                    <p className="mt-3 font-mono text-[10px] tracking-wide text-[#8a8578]/70 uppercase">
+                      {book.chapters} · {book.wordCount} words
+                    </p>
+                  </div>
                 </article>
               ))}
             </div>

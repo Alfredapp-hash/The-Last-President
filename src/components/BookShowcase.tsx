@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Book } from "@/lib/content";
 import { books } from "@/lib/content";
 
@@ -15,31 +16,35 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
       >
         {/* Meta panel */}
         <div
-          className={`relative flex flex-col justify-center p-10 lg:p-14 ${reversed ? "lg:[direction:ltr]" : ""}`}
+          className={`relative flex flex-col justify-center gap-8 p-10 lg:flex-row lg:items-center lg:p-14 ${reversed ? "lg:[direction:ltr]" : ""}`}
           style={{ backgroundColor: book.accentMuted }}
         >
-          <span className="font-mono text-[10px] tracking-[0.3em] text-[#8a8578] uppercase">
-            {book.subtitle} · {book.chapterRange}
-          </span>
-          <span
-            className="mt-6 font-serif text-[5rem] leading-none opacity-20"
-            style={{ color: book.accent }}
-            aria-hidden
-          >
-            {String(book.number).padStart(2, "0")}
-          </span>
-          <h3 className="font-serif text-4xl text-[#ece8df] md:text-5xl">
-            {book.title}
-          </h3>
-          <p
-            className="mt-4 font-serif text-xl italic"
-            style={{ color: book.accent }}
-          >
-            &ldquo;{book.controlling}&rdquo;
-          </p>
-          <p className="mt-2 font-mono text-[11px] tracking-wide text-[#8a8578] uppercase">
-            {book.arc}
-          </p>
+          <div className="relative w-32 shrink-0 overflow-hidden rounded-sm shadow-[0_24px_48px_-12px_#000000cc] sm:w-40">
+            <Image
+              src={book.coverTitled}
+              alt={`${book.title} — cover`}
+              width={1600}
+              height={2560}
+              className="h-auto w-full"
+            />
+          </div>
+          <div>
+            <span className="font-mono text-[10px] tracking-[0.3em] text-[#8a8578] uppercase">
+              {book.subtitle} · {book.chapterRange}
+            </span>
+            <h3 className="mt-3 font-serif text-4xl text-[#ece8df] md:text-5xl">
+              {book.title}
+            </h3>
+            <p
+              className="mt-4 font-serif text-xl italic"
+              style={{ color: book.accent }}
+            >
+              &ldquo;{book.controlling}&rdquo;
+            </p>
+            <p className="mt-2 font-mono text-[11px] tracking-wide text-[#8a8578] uppercase">
+              {book.arc}
+            </p>
+          </div>
         </div>
 
         {/* Content panel */}
