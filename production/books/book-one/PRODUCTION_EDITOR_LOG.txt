@@ -1,0 +1,34 @@
+BOOK-ONE — Expert Editor Pass
+Date: 2026-06-20
+Agent: run_expert_editor_pass.py (Series Master Phases 1-4)
+
+## Edit counts
+- Run-boundary spacing fixes: 0
+- In-run text fixes: 0
+- Double-space fixes: 0
+- Dash normalizations: 0
+- Trailing space fixes: 0
+- Production marker removals: 0
+- Name variant fixes: 0
+
+## Word count: 82,786
+
+## Verification
+- barren_wordplay_present: True
+- controlling:Every accusation is advertising: True
+- controlling:To him not knowing until morning: True
+- defect:AtBAREN: True
+- defect:andstabilization: True
+- defect:askedwell: True
+- defect:calledThe: True
+- defect:circledlaughed: True
+- defect:outmay: True
+- defect:readTHE: True
+- defect:triedTHELASTPRESIDENT: True
+- defect:underlinedfunction: True
+- defect:writtenChildren: True
+- double_space_runs: 0
+- markers_clean: True
+- word_count: 82786
+
+## Status: PASS — no flags

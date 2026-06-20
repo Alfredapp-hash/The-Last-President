@@ -1,0 +1,12 @@
+PRODUCTION READINESS — AUTOMATED SIGN-OFF
+Date: 2026-06-20
+Series status: READY FOR QUERY/BETA
+
+### book-one
+  Flags: 0
+
+### book-two
+  Flags: 0
+
+### book-three
+  Flags: 0
