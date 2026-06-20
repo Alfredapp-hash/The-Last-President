@@ -39,7 +39,9 @@ Illustrations should feel like haunted evidence—pencil sketches, exhibits, sea
 
 ## Recommended next steps
 
-1. Human proofread against house style sheet (optional but recommended per Book One log)
-2. Professional copyedit for publication
-3. Commission illustrations per Art Brief
-4. EPUB/PDF layout for distribution platforms
+1. Run expert editor agents using prompts in `production/editor-prompts/` (Series Master first, then Books 1–3)
+2. Sign off with `production/editor-prompts/production-readiness-checklist.md`
+3. Human proofread against house style sheet (optional but recommended per Book One log)
+4. Professional copyedit for publication (if separate from agent pass)
+5. Commission illustrations per Art Brief
+6. EPUB/PDF layout for distribution platforms
