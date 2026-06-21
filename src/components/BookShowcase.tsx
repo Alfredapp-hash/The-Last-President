@@ -30,7 +30,7 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
           </div>
           <div>
             <span className="font-mono text-[10px] tracking-[0.3em] text-[#8a8578] uppercase">
-              {book.subtitle} · {book.chapterRange}
+              {book.subtitle} · {book.positioning}
             </span>
             <h3 className="mt-3 font-serif text-4xl text-[#ece8df] md:text-5xl">
               {book.title}
@@ -52,7 +52,20 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
           className={`flex flex-col justify-between p-10 lg:p-14 ${reversed ? "lg:[direction:ltr]" : ""}`}
         >
           <div>
-            <p className="text-sm leading-relaxed text-[#8a8578]">{book.blurb}</p>
+            <p className="font-mono text-[11px] tracking-wide text-[#c9a962] uppercase">
+              {book.hook}
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-[#8a8578]">
+              {book.blurb}
+            </p>
+            <blockquote className="mt-6 border-l-2 border-[#2a2724] pl-4">
+              <p className="font-serif text-base italic leading-relaxed text-[#ece8df]/90">
+                &ldquo;{book.excerpt}&rdquo;
+              </p>
+              <cite className="mt-2 block font-mono text-[10px] tracking-widest text-[#8a8578] not-italic uppercase">
+                {book.excerptSource}
+              </cite>
+            </blockquote>
             <ul className="mt-8 flex flex-wrap gap-2">
               {book.themes.map((theme) => (
                 <li
@@ -65,11 +78,9 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
             </ul>
           </div>
           <div className="mt-10 flex items-center justify-between border-t border-[#2a2724] pt-6">
-            <div className="font-mono text-[11px] text-[#8a8578]">
-              <span>{book.chapters}</span>
-              <span className="mx-2 opacity-40">·</span>
-              <span>{book.wordCount} words</span>
-            </div>
+            <p className="font-mono text-[11px] text-[#8a8578] uppercase">
+              {book.arc}
+            </p>
             <span className="rounded-sm border border-[#2a2724] px-3 py-1 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
               {book.status}
             </span>

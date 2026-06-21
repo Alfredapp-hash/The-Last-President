@@ -9,11 +9,23 @@ export const site = {
     "When a dying inventor leaves a scorched prediction naming a monitored child and the phrase THE LAST PRESIDENT, a dynasty, a court, and a country must decide whether Baren Sump is prophecy, evidence, or simply a boy who refuses to remain available.",
 } as const;
 
-export const seriesStats = [
-  { value: "3", label: "Books" },
-  { value: "84", label: "Chapters" },
-  { value: "232K", label: "Words" },
-  { value: "2026", label: "Production Ready" },
+export const heroHighlights = [
+  {
+    label: "Not a chosen-one story",
+    line: "A case file where language, law, and power fight over one child.",
+  },
+  {
+    label: "What readers remember",
+    line: "Every accusation is advertising. Children are not evidence.",
+  },
+  {
+    label: "Why this trilogy lands",
+    line: "It ends with refusal and ordinary life, not spectacle.",
+  },
+  {
+    label: "Start here",
+    line: "Book One: The Last President.",
+  },
 ] as const;
 
 export type Book = {
@@ -26,8 +38,11 @@ export type Book = {
   wordCount: string;
   status: "Available" | "Coming Soon";
   hook: string;
+  positioning: string;
   controlling: string;
   blurb: string;
+  excerpt: string;
+  excerptSource: string;
   arc: string;
   themes: string[];
   accent: string;
@@ -50,9 +65,13 @@ export const books: Book[] = [
     wordCount: "~83,000",
     status: "Coming Soon",
     hook: "A boy named like an empty field. A dynasty that treats children as receivers.",
+    positioning: "The origin file",
     controlling: "Every accusation is advertising.",
     blurb:
       "When inventor Nikola Veyra dies in a storm that obeys no natural law, he leaves a prediction card scorched with impossible names. What follows is not a chosen-one fable but a case file: algorithms that preach, families that buy tomorrow, confession machines that turn numbers into names, and a child who learns that being watched is not the same as being protected.",
+    excerpt:
+      "It came crawling over the black river in sheets of blue-white fire, turning the windows of Nikola Veyra's laboratory into mirrors and the mirrors into doors.",
+    excerptSource: "Book One · Prologue",
     arc: "Build the machine",
     themes: [
       "Prophecy as infrastructure",
@@ -76,9 +95,13 @@ export const books: Book[] = [
     wordCount: "~88,000",
     status: "Coming Soon",
     hook: "Protection ends. Accountability begins.",
+    positioning: "The accountability file",
     controlling: "Children are not evidence.",
     blurb:
       "Baren learns about a grounded plane from a cereal box. The Look-Away Ledger, the RAF-One archive, and a map of who looked away turn one child's story into a system story. Courts without windows. Adults who were almost brave. Seven court identifiers. Never names.",
+    excerpt:
+      "Baren learned about the plane from a cereal box. Not because the cereal box was haunted. Everyone checked.",
+    excerptSource: "Book Two · Chapter Twenty-Five",
     arc: "Who looked away",
     themes: [
       "Institutional accountability",
@@ -102,9 +125,13 @@ export const books: Book[] = [
     wordCount: "~62,000",
     status: "Coming Soon",
     hook: "Not as proof. Not as witness. Not as remedy.",
+    positioning: "The refusal file",
     controlling: "Some days refused to become evidence.",
     blurb:
       "The black path is not a tunnel—it is a refusal. Baren will not remain available as proof, witness, remedy, or adult repair tool. Book Three compresses toward a quiet ending: ordinary remains enough. No crowned climax. No child-saving-the-world turn.",
+    excerpt:
+      "The black path was not a tunnel beneath the house. It was the route no machine could price because it began with a refusal.",
+    excerptSource: "Book Three · Opening",
     arc: "Refusal as freedom",
     themes: [
       "Consent and availability",
@@ -200,7 +227,8 @@ export const pressFacts = [
     label: "Genre",
     value: "Dark political thriller / literary speculative fiction",
   },
-  { label: "Total length", value: "~232,600 words · 84 chapters" },
+  { label: "Reader promise", value: "Not a chosen-one story. A case file." },
+  { label: "Controlling line", value: "Children are not evidence." },
   { label: "Status", value: "Production ready — query/beta" },
   { label: "Website", value: "thesumpledger.com" },
 ];

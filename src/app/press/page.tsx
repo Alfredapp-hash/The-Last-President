@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Press Kit",
   description:
-    "Media resources for Baren Sump and The Last President — complete trilogy, ~232,600 words.",
+    "Media resources for Baren Sump and The Last President — a complete literary political-thriller trilogy.",
 };
 
 export default function PressPage() {
@@ -21,8 +21,9 @@ export default function PressPage() {
             Press Kit
           </h1>
           <p className="mt-6 text-[#8a8578] leading-relaxed">
-            {site.seriesTitle} is a completed literary thriller trilogy
-            (~232,600 words, 84 chapters). Production ready for query and beta.
+            {site.seriesTitle} is a completed literary thriller trilogy built as
+            one case file, not a chosen-one fantasy. Production ready for query
+            and beta.
           </p>
 
           <div className="mt-10 overflow-hidden rounded-sm border border-[#2a2724]">
@@ -92,7 +93,7 @@ export default function PressPage() {
                       {book.blurb}
                     </p>
                     <p className="mt-3 font-mono text-[10px] tracking-wide text-[#8a8578]/70 uppercase">
-                      {book.chapters} · {book.wordCount} words
+                      {book.hook}
                     </p>
                   </div>
                 </article>

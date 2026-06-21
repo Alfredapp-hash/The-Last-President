@@ -6,11 +6,11 @@ export function CTA() {
       <div className="mx-auto max-w-3xl text-center">
         <p className="section-label">Stay in the Ledger</p>
         <h2 className="mt-4 font-serif text-3xl text-[#ece8df] md:text-4xl">
-          The trilogy is production ready.
+          Enter the case file.
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-[#8a8578] leading-relaxed">
-          Launch updates, excerpt releases, review copies, and rights inquiries.
-          Distribution coming soon.
+          Launch updates, excerpt drops, review copies, and rights inquiries for
+          readers who want political thrillers with literary teeth.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <a

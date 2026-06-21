@@ -9,9 +9,10 @@ export function SeriesArc() {
           One arc. Three movements.
         </h2>
         <p className="mt-4 max-w-2xl text-[#8a8578] leading-relaxed">
-          Continuous chapter numbering from Prologue through Chapter 84. A
-          single case file that moves from prophecy and spectacle to protection,
-          accountability, and refusal.
+          A single case file that moves from prophecy and spectacle to
+          protection, accountability, and refusal. Each book escalates the
+          pressure, then narrows the question: who gets to stay human when
+          institutions need a symbol?
         </p>
 
         <div className="arc-line mt-16 hidden md:block" />
