@@ -2,7 +2,7 @@ import Link from "next/link";
 import { site } from "@/lib/content";
 
 const links = [
-  { href: "#arc", label: "The Arc" },
+  { href: "#start", label: "Start Here" },
   { href: "#books", label: "Books" },
   { href: "#quotes", label: "Excerpts" },
   { href: "/press", label: "Press" },

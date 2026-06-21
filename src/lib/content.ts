@@ -9,6 +9,15 @@ export const site = {
     "When a dying inventor leaves a scorched prediction naming a monitored child and the phrase THE LAST PRESIDENT, a dynasty, a court, and a country must decide whether Baren Sump is prophecy, evidence, or simply a boy who refuses to remain available.",
 } as const;
 
+export const launchCtas = {
+  startReading: "#the-last-president",
+  pressKit: "/press",
+  requestReviewCopy:
+    "mailto:hello@thesumpledger.com?subject=Review%20Copy%20Request",
+  joinLedger:
+    "mailto:hello@thesumpledger.com?subject=Ledger%20Launch%20Updates",
+} as const;
+
 export const heroHighlights = [
   {
     label: "Not a chosen-one story",
@@ -25,6 +34,30 @@ export const heroHighlights = [
   {
     label: "Start here",
     line: "Book One: The Last President.",
+  },
+] as const;
+
+export const startHereCards = [
+  {
+    title: "Start with Book One",
+    description:
+      "Enter through The Last President, where prophecy, media, and dynasty first converge around Baren Sump.",
+    cta: "Read Book One",
+    href: "#the-last-president",
+  },
+  {
+    title: "Read the Press Brief",
+    description:
+      "Get the one-page series framing, approved pull quotes, and book-by-book positioning in one place.",
+    cta: "Open Press Kit",
+    href: "/press",
+  },
+  {
+    title: "Request a Review Copy",
+    description:
+      "For reviewers, interviewers, and media partners who want full-trilogy context and launch materials.",
+    cta: "Request Review Copy",
+    href: "mailto:hello@thesumpledger.com?subject=Review%20Copy%20Request",
   },
 ] as const;
 
@@ -147,6 +180,27 @@ export const books: Book[] = [
   },
 ];
 
+export const featuredExcerpts = [
+  {
+    title: "Book One · The Last President",
+    excerpt:
+      "Lightning struck the iron towers on the roof again and again, not randomly, not naturally, but with the obedience of something summoned and now regretting the invitation.",
+    source: "Prologue · The Inventor's Last Storm",
+  },
+  {
+    title: "Book Two · Children of Tomorrow",
+    excerpt:
+      "The Look-Away Ledger did not accuse. It listed. It did not shout. It held. It did not save anyone, but it made forgetting expensive.",
+    source: "Middle sequence · The Ledger",
+  },
+  {
+    title: "Book Three · The Black Path",
+    excerpt:
+      "The future did not wait. It was available. That was all. And all, for once, did not ask to be everything.",
+    source: "Final sequence",
+  },
+] as const;
+
 export const interiorPlates = [
   { src: "/images/interior/interior-01-prediction-card.png", caption: "The prediction card", anchor: "Prologue" },
   { src: "/images/interior/interior-05-the-chair.png", caption: "The chair", anchor: "Chapter Twelve" },
@@ -229,6 +283,6 @@ export const pressFacts = [
   },
   { label: "Reader promise", value: "Not a chosen-one story. A case file." },
   { label: "Controlling line", value: "Children are not evidence." },
-  { label: "Status", value: "Production ready — query/beta" },
+  { label: "Status", value: "Launch-ready release package" },
   { label: "Website", value: "thesumpledger.com" },
 ];

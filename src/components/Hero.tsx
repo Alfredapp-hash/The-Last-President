@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { boxSet, heroHighlights, site } from "@/lib/content";
+import { boxSet, heroHighlights, launchCtas, site } from "@/lib/content";
 
 export function Hero() {
   return (
@@ -33,13 +33,13 @@ export function Hero() {
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <a
-              href="#books"
+              href={launchCtas.startReading}
               className="inline-flex items-center gap-2 rounded-sm bg-[#9e2b3c] px-7 py-3.5 text-sm font-medium tracking-wide text-white transition hover:bg-[#b83346]"
             >
-              Read the Trilogy
+              Start with Book One
             </a>
             <Link
-              href="/press"
+              href={launchCtas.pressKit}
               className="inline-flex items-center gap-2 rounded-sm border border-[#2a2724] px-7 py-3.5 text-sm tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
             >
               Press Kit
