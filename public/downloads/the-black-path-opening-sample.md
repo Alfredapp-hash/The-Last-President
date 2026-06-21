@@ -1,0 +1,2554 @@
+# The Black Path (Book Three)
+
+## Opening Sample
+
+This sample includes the opening movement(s) from the production manuscript.
+For review copies, rights, or media inquiries: hello@thesumpledger.com
+
+---
+
+## CHAPTER FIFTY-FIVE
+
+Some Days
+
+Some days refused to become evidence.
+
+This annoyed the adults at first.
+
+Not because they wanted Baren’s life to remain a case. They did not. Not consciously. Not anymore.
+
+But adults who had spent weeks saving things, sealing things, filing things, correcting things, protecting things, and proving things developed a reflex. A dropped phrase became possible guidance. A breakfast card became a receipt. A drawing became a preservation question. A schedule became something to review, label, store, redact, and maybe later produce.
+
+Protection had saved him.
+
+Protection had also grown hands.
+
+That was how the black path began: not as escape into darkness, but as refusal to be kept by every hand that called itself safe.
+
+So when Baren woke on the third ordinary morning and announced, “Today I do not want to keep anything,” the room reacted like a clerk had shouted fire in a courthouse.
+
+Nurse Imani recovered first.
+
+“Okay.”
+
+Morro looked at her.
+
+“Define okay.”
+
+Nurse Imani did not blink.
+
+“Okay means okay.”
+
+Baren sat up in bed, hair crooked, one sock half off.
+
+“No drawer things today. No table things. No guidance unless I say. No adult sentence collecting.”
+
+Morro slowly lowered her coffee.
+
+“I do not collect sentences.”
+
+Everyone looked at her.
+
+She sighed.
+
+“I collect only necessary sentences.”
+
+Baren looked unconvinced.
+
+“Today, ask first.”
+
+Morro nodded.
+
+“Accepted.”
+
+Lila entered with one folder, stopped, saw his face, and placed it immediately on the chair outside the room.
+
+Baren noticed.
+
+“Good.”
+
+Cole, outside the door, said, “No keeping day.”
+
+Baren nodded.
+
+“No keeping day.”
+
+Nurse Imani wrote nothing.
+
+Then saw Baren looking.
+
+She put the pen down.
+
+“Nothing written.”
+
+“Good.”
+
+Morro looked briefly pained.
+
+Growth hurt.
+
+Breakfast was cereal again.
+
+Blue bowl.
+
+Milk enough to make cereal cereal, not soup.
+
+No card.
+
+No standard.
+
+No doctrine.
+
+Just eating.
+
+The absence of record made everyone weird for six minutes.
+
+Baren noticed.
+
+“You can still remember.”
+
+Lila smiled.
+
+“Yes.”
+
+“You do not have to keep it outside your head.”
+
+Morro looked up.
+
+“That is a dangerous distinction.”
+
+Baren pointed his spoon at her.
+
+“Ask first.”
+
+Morro closed her mouth.
+
+The spoon lowered.
+
+Cereal continued.
+
+From the hallway, Cole said, “Good catch.”
+
+Morro pointed at him.
+
+“Not helping.”
+
+Cole took a sip of bad coffee.
+
+“Still true.”
+
+After breakfast, Nurse Imani cleared the bowl.
+
+No one photographed it.
+
+No one described it.
+
+No one preserved the spoon.
+
+Civilization held.
+
+The national task force did not honor No Keeping Day because it did not know No Keeping Day existed and, more importantly, because adult systems still required documentation to stop other adult systems from pretending ignorance.
+
+At 9:00 a.m., the former Old Court clerk produced the London packet.
+
+Morro took the call in the consult room, door closed, away from Baren’s hallway.
+
+The packet showed that the private governance method had crossed borders through philanthropic education networks, family offices, faith-based reconciliation institutes, and crisis-management firms that sold discretion like bottled water.
+
+No one used the same name twice.
+
+That was part of the design.
+
+Old Court was not a brand.
+
+It was a habit.
+
+Private review.
+
+Continuity counsel.
+
+Family healing advisory.
+
+Legacy ethics circle.
+
+Restoration table.
+
+Next-generation trust forum.
+
+Youth-sensitive resolution panel.
+
+Names changed.
+
+Mechanisms repeated.
+
+Morro listened while Simon presented.
+
+Then said, “Do not chase names first. Chase mechanisms.”
+
+The assistant deputy undersecretary, who had improved slightly, asked, “For the public bulletin?”
+
+“For the investigation.”
+
+Dr. Rao nodded.
+
+“Mechanisms reproduce. Names hide.”
+
+Morro pointed at the screen.
+
+“That. Use that.”
+
+The bulletin drafted itself from there:
+
+Investigators were reviewing recurring mechanisms: private meetings around minors, conflicted repair processes, deferred contact instruments, worker vulnerability, and privacy language used as strategy.
+
+“Good. Ugly. Useful.”
+
+The bulletin did not mention Baren.
+
+It did not mention the unit.
+
+It did not mention No Keeping Day.
+
+At 9:30, Baren read about octopuses.
+
+Ms. Rowe had chosen ocean reading because sharks had become too interesting and therefore suspect.
+
+The octopus page caused immediate problems.
+
+Baren stared at the illustration.
+
+“Too many arms.”
+
+Ms. Rowe said, “Eight.”
+
+“I know. Too many.”
+
+“They are very intelligent.”
+
+“Adults will ruin that.”
+
+“Probably.”
+
+“They can change color?”
+
+“Yes.”
+
+“Like cuttlefish.”
+
+“Yes.”
+
+“Lying or surviving?”
+
+“Maybe both.”
+
+Cole, outside the door, said, “Pattern.”
+
+Baren looked at him.
+
+“No categories.”
+
+Cole lifted one hand.
+
+“No categories.”
+
+Ms. Rowe read that octopuses could squeeze through tiny spaces, use tools, open jars, and sometimes escape tanks.
+
+Baren listened.
+
+Then closed the book.
+
+“No octopus guidance.”
+
+Ms. Rowe smiled.
+
+“No octopus guidance.”
+
+“Octopus can just be octopus.”
+
+“Yes.”
+
+He reopened the book.
+
+Read one paragraph.
+
+Stumbled on camouflage.
+
+Corrected it.
+
+No one wrote it down.
+
+He looked at Ms. Rowe.
+
+“You want to write correction.”
+
+“I do.”
+
+“Why?”
+
+“So I can track reading progress.”
+
+“That is okay. Progress records allowed?”
+
+Lila, sitting nearby, asked, “Do you want progress records for school only?”
+
+Baren thought.
+
+“Yes. School progress, not life progress.”
+
+Morro, from the consult-room doorway, looked like she had been physically struck by useful precision.
+
+She asked, “May I write that?”
+
+Baren considered.
+
+“Yes. That is guidance.”
+
+Morro wrote:
+
+SCHOOL PROGRESS, NOT LIFE PROGRESS.
+
+Lila added the adult version:
+
+Educational documentation should track learning needs and supports without converting emotional recovery, disclosure, public engagement, or personal meaning into performance metrics.
+
+Baren read it.
+
+“Lawyer cereal.”
+
+“Dry but useful?” Lila asked.
+
+“Dry but safe.”
+
+That was new.
+
+Morro liked it.
+
+Too much.
+
+She did not say so.
+
+At 10:45, the public guidance desk received seventeen questions from institutions about how to measure whether children felt safe.
+
+Morro looked at them.
+
+“No.”
+
+Lila said, “Some measurement is needed.”
+
+“Some.”
+
+Dr. Rao joined by video.
+
+“Safety can be assessed clinically and procedurally. But institutions love turning safety into survey optics.”
+
+Morro said, “Public.”
+
+The advisory became careful and shorter:
+
+The advisory was shorter now: ask safely, privately, and never turn a child’s comfort, gratitude, silence, or forgiveness into an institutional grade.
+
+Baren was not shown the full advisory.
+
+He asked why adults looked “survey mad.”
+
+Lila explained.
+
+“Some institutions want to know how to measure if kids feel safe.”
+
+Baren frowned.
+
+“They can ask, but not make it a grade.”
+
+Lila nodded.
+
+“Exactly.”
+
+He looked at Morro.
+
+“You can use that.”
+
+Morro wrote:
+
+ASK, BUT DO NOT MAKE IT A GRADE.
+
+Then paused.
+
+“Public?”
+
+“Yes.”
+
+The guidance desk added one plain rule:
+
+Ask, but do not make it a grade.
+
+“Plain enough to survive.”
+
+At noon, lunch was soup.
+
+Baren did not like soup.
+
+He chose it anyway because not every meal had to prove preference.
+
+Then he realized that sentence itself sounded like guidance and told everyone not to write it down.
+
+Morro suffered visibly.
+
+Nurse Imani looked directly at her.
+
+“Judge.”
+
+Morro placed both hands flat on the table.
+
+“I am not writing.”
+
+Baren ate four spoonfuls.
+
+Soup was still shiny.
+
+He said nothing.
+
+The spoon went into the tray.
+
+The tray left.
+
+No record.
+
+No table item.
+
+No drawer item.
+
+No symbol.
+
+Just soup.
+
+Harder than it looked.
+
+At 1:00, Mara arrived for puzzle visit.
+
+She came with no ocean facts.
+
+Baren noticed.
+
+“No facts?”
+
+“No facts.”
+
+“Forgot?”
+
+“No. No Keeping Day.”
+
+He looked pleased.
+
+“You remembered without keeping.”
+
+“I did.”
+
+“Good.”
+
+They worked the cow puzzle.
+
+No work talk.
+
+No facts.
+
+No metaphors.
+
+No otters.
+
+No kelp.
+
+No sharks.
+
+Just cows.
+
+After five minutes, Mara said, “I almost brought a fact.”
+
+“I know.”
+
+“You do?”
+
+“You have fact face.”
+
+“I have fact face?”
+
+“Yes.”
+
+“What does it look like?”
+
+“Like you want to be useful.”
+
+Mara set down a sky piece.
+
+“That is probably true.”
+
+“You can be not useful.”
+
+Mara smiled faintly.
+
+“I am trying.”
+
+“Trying Adult.”
+
+“Yes.”
+
+“Not useful trying. Just trying trying.”
+
+“That is harder.”
+
+“I know.”
+
+They placed puzzle pieces in silence.
+
+Baren completed part of a fence.
+
+Mara found a cloud edge.
+
+No one recorded the moment.
+
+It survived anyway.
+
+When Mara left, Baren said, “Next time you can bring one fact.”
+
+“Only one?”
+
+“Yes.”
+
+“Receipts?”
+
+“No. Trust fact.”
+
+Mara blinked.
+
+“Trust fact?”
+
+“One fact I do not check.”
+
+Mara understood the size of that and did not make it big.
+
+“Okay.”
+
+Baren pointed.
+
+“If it is wrong, no more trust facts for a while.”
+
+“Fair.”
+
+Morro, who had absolutely been listening from the lounge, whispered to Lila, “This is a major evidentiary development.”
+
+Lila whispered back, “Do not.”
+
+Morro did not.
+
+Barely.
+
+At 2:30, the first indictment connected to Old Court itself was returned under seal.
+
+Not public yet.
+
+Adult names.
+
+Conspiracy counts.
+
+Obstruction.
+
+Witness tampering.
+
+False statements.
+
+Document destruction.
+
+Financial violations.
+
+Potential child endangerment charges referred to state authorities.
+
+Dahlia named.
+
+Two trust attorneys.
+
+One Mercy Continuity officer.
+
+One Elysium-linked data strategist.
+
+One private physician.
+
+One family-office administrator.
+
+Not Thomas.
+
+Dead men were bad defendants.
+
+Not Baren.
+
+Never Baren.
+
+Not children.
+
+Adults.
+
+Morro read the sealed notice in the consult room.
+
+Lila beside her.
+
+Simon on screen.
+
+Federal counsel tired and precise.
+
+No celebration.
+
+Morro said, “Good. Keep building.”
+
+Federal counsel said, “We anticipate unsealing within forty-eight hours after arrests.”
+
+“Adult names only?”
+
+“Yes.”
+
+“Child protections?”
+
+“Incorporated.”
+
+“Worker protections?”
+
+“Yes.”
+
+“Former minors?”
+
+“By choice.”
+
+“Good.”
+
+Morro ended the call.
+
+Then stood in the consult room alone for one full minute.
+
+Lila did not interrupt.
+
+Finally, Morro said, “We are not telling him unless necessary.”
+
+Lila nodded.
+
+“No Keeping Day.”
+
+“No Keeping Day,” Morro said.
+
+The indictment stayed outside Baren’s room.
+
+At 3:00, courtyard.
+
+The sad maple had dropped more leaves.
+
+Baren stood under it and looked at the ground.
+
+“Tree is losing.”
+
+Cole said, “Season.”
+
+“Still losing.”
+
+“Maybe.”
+
+Baren picked up one leaf.
+
+Looked at it.
+
+Lila watched, careful.
+
+He held it out.
+
+“Trash?”
+
+Lila asked, “Do you want to keep it?”
+
+“No. Already have leaf.”
+
+“Then trash.”
+
+He put it in the trash.
+
+No ceremony.
+
+The sad maple did not object.
+
+Cole said, “Leaf retired.”
+
+Baren looked at him.
+
+“Not everything needs a job after.”
+
+Cole nodded slowly.
+
+“True.”
+
+Baren pointed at him.
+
+“Private.”
+
+“Private.”
+
+They sat outside for ten minutes.
+
+No insights collected.
+
+No guidance.
+
+No record.
+
+Except the ones they kept by being alive in the same place.
+
+That was allowed.
+
+At 4:00, Serena’s visit was canceled.
+
+By Baren.
+
+Not because he was angry.
+
+Because he did not want a visit.
+
+Lila confirmed twice.
+
+Once was not enough because adults needed to distinguish choice from fear.
+
+Twice was enough because adults also needed to stop turning choice into interrogation.
+
+“You can cancel,” Lila said.
+
+“I know.”
+
+“Do you want to give a reason?”
+
+“No.”
+
+“Okay.”
+
+Serena received the message through counsel:
+
+Baren does not want a visit today. No reason provided. No response requested.
+
+Serena replied:
+
+Understood. No response needed.
+
+Morro read it.
+
+“Good.”
+
+Baren asked later, “Did she answer too much?”
+
+“No,” Lila said. “She answered correctly.”
+
+“Good.”
+
+Then he asked, “Can no reason be enough?”
+
+“Yes.”
+
+Morro, from the lounge, whispered, “Public someday.”
+
+Baren heard.
+
+“Ask first.”
+
+Morro froze.
+
+“May that become guidance?”
+
+He thought.
+
+“Yes.”
+
+The guidance desk added one plain rule:
+
+The update said a protected child’s refusal did not need a reason before adults respected it.
+
+Baren reviewed it.
+
+“Good.”
+
+Then:
+
+“Too many words.”
+
+Morro said, “Legal systems are word hungry.”
+
+“Feed them less.”
+
+Morro nodded.
+
+“Working on it.”
+
+At 5:30, Chronald requested nothing.
+
+Serena requested nothing.
+
+Crowe sent no advisory.
+
+Mara sent no draft.
+
+Simon sent no map to the unit.
+
+Dahlia’s counsel filed something outrageous, but Morro read it in the consult room and did not bring it into the lounge.
+
+Baren ate grilled cheese.
+
+Straight cut this time.
+
+Two rectangles.
+
+No one mentioned jurisdiction.
+
+Cole looked like he wanted to.
+
+Baren looked at him.
+
+Cole drank water.
+
+Good.
+
+After dinner, Baren asked, “Did big adult stuff happen today?”
+
+Lila answered, “Yes.”
+
+“Do I need to know?”
+
+“No.”
+
+“Does it affect my room?”
+
+“No.”
+
+“Then not today.”
+
+“Okay.”
+
+He looked at Morro.
+
+“You did not tell me.”
+
+“No.”
+
+“Good.”
+
+Morro inclined her head.
+
+Finding accepted.
+
+Night came plain.
+
+No rain.
+
+No emergency.
+
+No adult names in the hallway.
+
+No toast holiday.
+
+No drawer review.
+
+No table review.
+
+The ocean fact card stayed.
+
+The shark drawing stayed.
+
+The breakfast card stayed.
+
+The ordinary pencil stayed.
+
+The drawer stayed closed.
+
+Baren did not open it.
+
+This made Lila look at him.
+
+He saw.
+
+“What?”
+
+“No drawer check?”
+
+“No.”
+
+“Okay.”
+
+“It is still there.”
+
+“Yes.”
+
+“I do not have to check every time.”
+
+“No.”
+
+He climbed into bed.
+
+Door half open.
+
+Cole outside.
+
+Nurse Imani at the desk.
+
+Lila nearby.
+
+Morro in the lounge, doing paperwork quietly enough to count as growth.
+
+Before sleep, Baren asked, “Can some days just be days?”
+
+Lila answered, “Yes.”
+
+“Even if bad things happen elsewhere?”
+
+“Yes.”
+
+“Even if adults keep papers?”
+
+“Yes.”
+
+“Even if tomorrow needs review?”
+
+“Yes.”
+
+He nodded.
+
+“Good.”
+
+Then:
+
+“No Keeping Day can end.”
+
+“Okay.”
+
+“Do not keep it.”
+
+Lila smiled.
+
+“I won’t.”
+
+Morro, in the lounge, heard and closed her notebook.
+
+For once, she wrote nothing.
+
+The light dimmed.
+
+The hallway quieted.
+
+The big machine kept turning elsewhere, now pursued by adults with warrants, bulletins, protocols, and enough receipts to make denial expensive.
+
+But Baren slept without opening the drawer.
+
+And because no one wrote down the moment, it belonged completely to him.
+
+---
+
+## CHAPTER FIFTY-SIX
+
+The Day That Was Not Kept
+
+The day that was not kept did not disappear.
+
+This surprised the adults.
+
+They had confused preservation with existence because, for weeks, existence had required protection from deletion, distortion, extraction, branding, and theft. Records had been rescue ropes. Filings had been walls. Receipts had been proof that someone’s no had not evaporated in a room full of important people.
+
+But Baren slept through the night without checking the drawer, and in the morning the drawer remained there anyway.
+
+Closed.
+
+Ordinary.
+
+Not offended.
+
+At 7:11 a.m., Baren opened his eyes and looked at it.
+
+The drawer did nothing.
+
+Nurse Imani knocked.
+
+“Come in.”
+
+She entered with the new schedule.
+
+He took it.
+
+Breakfast.
+
+Reading.
+
+Math.
+
+Courtyard.
+
+Puzzle.
+
+Visit optional.
+
+Adult briefing only if requested.
+
+Review tomorrow.
+
+He read it, then looked at her.
+
+“Today can keep some things.”
+
+“Okay.”
+
+“But not everything.”
+
+“Okay.”
+
+“Adults need practice.”
+
+Nurse Imani nodded.
+
+“They do.”
+
+From the hallway, Cole said, “True yes.”
+
+Morro, somewhere in the lounge, said, “I heard that.”
+
+Cole said, “Still true.”
+
+Baren smiled.
+
+“What is breakfast?”
+
+“Toast, cereal, eggs, or oatmeal.”
+
+“Oatmeal sounds like a policy title.”
+
+Morro appeared in the doorway with coffee.
+
+“It often is.”
+
+“Toast.”
+
+“Edges?”
+
+“No.”
+
+“Butter?”
+
+“Present, not shiny.”
+
+Nurse Imani wrote it on the card automatically.
+
+Then froze.
+
+Baren saw.
+
+He looked at the card.
+
+Then at her.
+
+“That one can keep.”
+
+She smiled.
+
+“Okay.”
+
+Morro said nothing.
+
+Heroic restraint was becoming less heroic and more habit.
+
+That was how it worked.
+
+At 8:30 a.m., the first arrests from the sealed indictment began.
+
+Not in Baren’s hallway.
+
+Not in his room.
+
+Not near the breakfast card.
+
+Elsewhere.
+
+Adult places.
+
+A trust attorney in Boston opened his townhouse door wearing exercise clothes and the expression of someone who believed federal agents should have called ahead.
+
+A Mercy Continuity officer was arrested outside a parking garage with two phones and a paper coffee cup that later spilled onto the sidewalk in a way no one interpreted.
+
+An Elysium-linked data strategist was arrested at a coworking space where the inspirational wall read BUILD WHAT MATTERS.
+
+Morro saw the photograph and said, “Finally, accuracy.”
+
+The private physician surrendered through counsel.
+
+The family-office administrator tried to delete files during the arrest and failed because the cloud had better memory than loyalty.
+
+Dahlia remained in custody.
+
+Two names were still sealed pending coordinated action.
+
+The task force issued a controlled statement:
+
+Federal authorities have begun arrests connected to alleged obstruction, witness interference, document destruction, false statements, and unlawful private governance activities involving protected persons and institutional records. No protected minor is alleged to have participated in wrongdoing. Child identities remain protected.
+
+“Good.”
+
+Mara’s newsroom carried the story with no child image.
+
+No file photo of Sump House.
+
+No Baren silhouette.
+
+No symbolic empty chair.
+
+Morro had specifically banned empty chairs after the Bellwether chapter of reality.
+
+Headline:
+
+Arrests Begin in Old Court Records Investigation
+
+Dry.
+
+Accurate.
+
+Adult.
+
+Mara wrote only a sidebar explaining the controlled-disclosure framework. The main story belonged to the independent team now.
+
+Progress could feel like exclusion if the ego was hungry.
+
+Mara fed it ocean facts instead.
+
+Baren was told at 9:00 because the arrests were major and he had asked to know when adults were caught.
+
+Lila sat with him after reading.
+
+“Some adults connected to the bad rooms were arrested this morning.”
+
+He looked up.
+
+“Dahlia again?”
+
+“She is already in custody. Other adults.”
+
+“What kinds?”
+
+Lila used his category sheet.
+
+“Paper Adults. Plan Adults. Money Adults. A medical adult. A data adult.”
+
+He frowned.
+
+“Data Adult?”
+
+Morro entered with coffee.
+
+“Adults who use numbers to make harm look like analysis.”
+
+Baren nodded.
+
+“Bad math.”
+
+“Yes.”
+
+“Did they use kids?”
+
+“The allegations involve protected persons and records. The court is keeping child identities protected.”
+
+“Good.”
+
+“Do you want names?”
+
+“No.”
+
+“Do you want to know if they get lawyers?”
+
+“Yes.”
+
+“They do.”
+
+“Do adults have to prove adult?”
+
+“Yes.”
+
+He nodded.
+
+“Good.”
+
+Then:
+
+“Can I still do ocean reading?”
+
+“Yes.”
+
+“Good.”
+
+The arrests left the room.
+
+The ocean book entered.
+
+That was the order.
+
+Ocean reading concerned coral reefs.
+
+Baren liked reefs immediately and distrusted that liking.
+
+“They look like cities.”
+
+Ms. Rowe said, “They are ecosystems.”
+
+“Adults will definitely ruin that.”
+
+“Yes,” she said, giving up the obvious.
+
+Coral was alive.
+
+Tiny animals building structures.
+
+Symbiosis.
+
+Bleaching.
+
+Warm water stress.
+
+Baren did not like bleaching.
+
+“Too much heat makes them lose what helps them live?”
+
+“Yes.”
+
+He stared at the page.
+
+No one spoke.
+
+Then he said, “No guidance.”
+
+Ms. Rowe nodded.
+
+“No guidance.”
+
+He read the paragraph again.
+
+Corrected symbiosis on the second try.
+
+Ms. Rowe tracked reading progress.
+
+School progress.
+
+Not life progress.
+
+Baren allowed that.
+
+He drew coral after the lesson.
+
+Not well.
+
+It looked like a nervous tree underwater.
+
+He considered the side table.
+
+Then shook his head.
+
+“Trash.”
+
+Nurse Imani asked, “Are you sure?”
+
+“Yes. Drawing was practice.”
+
+The coral went into recycling.
+
+No ceremony.
+
+The side table did not grow.
+
+Good.
+
+At 10:30, the public began doing what the public did whenever adult arrests created empty attention space.
+
+It looked for children.
+
+The first wave asked whether the protected minor had reacted.
+
+The second asked whether former minors felt vindicated.
+
+The third asked whether Baren would one day testify.
+
+The fourth asked whether the arrests proved his destiny.
+
+The fifth asked why no one had seen him.
+
+Morro read the trend report and placed both hands on the table.
+
+“Correction.”
+
+Mara’s newsroom, the public guidance desk, and the task force issued coordinated language:
+
+Protected minors do not owe reactions to adult arrests. Former minors may speak or not speak through chosen channels. No one should speculate about protected testimony, emotional response, future participation, appearance, location, or identity. Adult arrests should be analyzed through adult charges, adult records, and lawful process.
+
+Morro added:
+
+Curiosity is not standing.
+
+Lila looked at her.
+
+“Public?”
+
+“Adult concept.”
+
+Mara used it in body:
+
+Curiosity is not standing: public interest in a case does not create a right to a protected child’s reaction.
+
+The phrase traveled through legal circles and annoyed everyone who deserved it.
+
+Baren saw the safe version.
+
+“People want reaction?”
+
+“Yes,” Lila said.
+
+He thought.
+
+“My reaction is ocean reading.”
+
+Morro looked at him.
+
+He looked back.
+
+“Not public.”
+
+“Understood.”
+
+He returned to the reef page.
+
+The public did not receive the reaction.
+
+The reef did.
+
+At noon, one of the newly arrested adults released a statement through counsel.
+
+The trust attorney.
+
+Name: Graham Pell.
+
+Adult.
+
+Records.
+
+No child.
+
+His statement said:
+
+Mr. Pell’s work consisted of lawful estate planning and confidential family dispute resolution. He denies participating in any unlawful private governance system and looks forward to clearing his name.
+
+Morro read it and shrugged.
+
+“Acceptable.”
+
+Mara looked surprised.
+
+“That does not bother you?”
+
+“He is denying charges through counsel without using children. That is allowed.”
+
+Crowe, on video, said, “Due process remains irritatingly consistent.”
+
+“Yes,” Morro said.
+
+Baren heard later that one adult denied wrongdoing.
+
+“Can he?”
+
+“Yes.”
+
+“Even if he did it?”
+
+“Yes.”
+
+“Adults prove adult.”
+
+“Yes.”
+
+“Good.”
+
+He thought.
+
+“If he lies, paper remembers?”
+
+Lila smiled.
+
+“Yes.”
+
+Baren liked that.
+
+“Paper remembers is Rosa.”
+
+“Yes.”
+
+“Good.”
+
+At 1:00 p.m., Rosa returned to the Bellwether Club.
+
+Not secretly.
+
+Not publicly.
+
+Correctly.
+
+Her counsel notified the court. The club had been ordered not to retaliate. A labor monitor was present. Her cleaning cart was where she left it, though someone had removed the good mop head and replaced it with an inferior one.
+
+Rosa noticed immediately.
+
+The inferior mop head became a compliance issue within twelve minutes.
+
+Morro received the message and stared at it.
+
+“The mop?”
+
+Lila read the report.
+
+“Yes.”
+
+“Was the mop head removed in retaliation?”
+
+“Unclear.”
+
+“Then preserve mop records.”
+
+Crowe whispered, “Mop records.”
+
+Morro turned.
+
+“Do you think labor retaliation announces itself with trumpets?”
+
+“No.”
+
+“It often begins with schedules, supplies, keys, storage access, break timing, and supervisors saying tone.”
+
+Lila was already adding the mop issue to the labor monitor file.
+
+Baren heard about the mop only because Rosa permitted a safe update.
+
+“Rosa went back to work. Her cart was there. There is a problem with the mop, and adults are handling it.”
+
+Baren sat up straighter.
+
+“Bad mop?”
+
+“Yes.”
+
+“Did they take her good mop?”
+
+“Maybe.”
+
+“That is punishment.”
+
+“Maybe.”
+
+“Mop matters.”
+
+Morro entered.
+
+“We are aware.”
+
+Baren narrowed his eyes.
+
+“Do better.”
+
+Morro pointed.
+
+“We are doing better faster.”
+
+“Good.”
+
+The guidance desk later issued a labor witness note:
+
+The labor note said retaliation could hide in schedules, supplies, assignments, equipment, breaks, and tone - not only in formal job status.
+
+Baren reviewed the safe summary.
+
+“Work gets paid and gets tools.”
+
+Morro added it.
+
+Plain language addendum:
+
+Work gets paid and gets tools.
+
+Rosa, informed through counsel, replied:
+
+Now he really understands labor.
+
+At 2:30, math returned with decimals.
+
+Baren viewed decimals as fractions wearing office clothes.
+
+Ms. Rowe admitted this was not entirely wrong.
+
+He converted 0.5 to one-half.
+
+0.25 to one-fourth.
+
+0.75 to three-fourths.
+
+Suspicious but eventually correct.
+
+He asked, “Why do numbers need disguises?”
+
+Ms. Rowe said, “Different forms help in different situations.”
+
+“Adults too?”
+
+Lila looked up.
+
+Morro, in the doorway, became very still.
+
+Baren saw and sighed.
+
+“No guidance.”
+
+“Good,” Morro said.
+
+He finished the worksheet.
+
+Three errors.
+
+Corrected two.
+
+Left one.
+
+Ms. Rowe said, “Want to review the last one?”
+
+“No. Tomorrow.”
+
+“Okay.”
+
+Baren looked surprised.
+
+“You can say okay?”
+
+“Yes.”
+
+“Even if wrong?”
+
+“Yes.”
+
+“Good.”
+
+School progress note:
+
+Decimals introduced. Two corrections completed. One left for tomorrow by choice.
+
+Baren approved.
+
+“Learning can wait without being future claim.”
+
+Morro’s hand twitched.
+
+Baren pointed at her without looking.
+
+“Ask first.”
+
+“May that be guidance?”
+
+He thought.
+
+“For school.”
+
+Educational advisory gained:
+
+Unfinished learning can wait without becoming pressure or prophecy.
+
+Morro looked at it.
+
+“Soft.”
+
+Ms. Rowe said, “School needs some soft.”
+
+Morro accepted reluctantly.
+
+At 4:00 p.m., Serena’s optional visit became yes.
+
+Baren chose five minutes before the appointment, which caused a scheduling scramble so small and human that everyone respected it.
+
+Serena arrived with nothing.
+
+Good.
+
+Baren asked about mops.
+
+Serena did not know why but answered seriously.
+
+“I prefer sponge mops for kitchens and string mops for bigger floors.”
+
+Baren looked at Lila.
+
+“Is that true?”
+
+Lila said, “I am not mop counsel.”
+
+Cole, from outside, said, “String mops hold more.”
+
+Baren nodded.
+
+“Cole knows.”
+
+Serena smiled.
+
+“Then I defer to Cole.”
+
+The visit lasted eight minutes.
+
+They discussed floors, mops, and whether dinosaur boots would track mud.
+
+Baren said yes.
+
+Serena said worth it.
+
+Timer buzzed.
+
+Baren said, “Done.”
+
+Serena stood.
+
+“Okay.”
+
+No sadness offered.
+
+No sadness requested.
+
+At 5:30, the task force confirmed the two remaining sealed defendants had been located.
+
+One arrest pending.
+
+One negotiating surrender.
+
+National news wanted names.
+
+Morro wanted dinner.
+
+Both continued.
+
+The public bulletin said:
+
+Additional arrests or surrenders are expected. Names will be released after child-risk review and execution of protective measures.
+
+The public disliked waiting.
+
+Too bad.
+
+Waiting without teeth could be protective when adults controlled the teeth.
+
+Baren ate grilled cheese.
+
+Straight cut.
+
+No geometry discourse.
+
+Cole looked like he was suffering.
+
+Baren noticed.
+
+“You can say one thing.”
+
+Cole looked relieved.
+
+“Rectangles stable.”
+
+Baren nodded.
+
+“Accepted.”
+
+Morro did not object.
+
+Some doctrines matured privately.
+
+Evening settled into puzzle.
+
+Mara did not visit.
+
+She sent one trust fact through Lila because Baren had allowed one unchecked fact next time, and Lila asked if written counted.
+
+Baren said yes.
+
+The fact:
+
+Parrotfish make sand by eating coral and grinding it down.
+
+Baren stared at the card.
+
+“That sounds fake.”
+
+Lila said nothing.
+
+“Trust fact means I do not check.”
+
+“Yes.”
+
+He placed it on the side table.
+
+Then picked it up.
+
+Then placed it under the shark drawing.
+
+“Suspicious facts go under shark.”
+
+“Okay.”
+
+Morro saw later and did not ask.
+
+Barely.
+
+Before bed, Baren opened the drawer.
+
+First time since No Keeping Day.
+
+Everything remained.
+
+Dinosaur boots photo.
+
+Leaf envelope.
+
+Private notes.
+
+Category sheet.
+
+Learning plan.
+
+Permanent framework summary.
+
+Blank envelope.
+
+No new court papers.
+
+No adult arrest updates.
+
+No mop filing.
+
+Good.
+
+He added nothing.
+
+Closed it.
+
+Opened it.
+
+Still there.
+
+Closed it.
+
+He looked at the side table.
+
+Ocean card.
+
+Shark drawing.
+
+Breakfast card.
+
+Ordinary pencil.
+
+Suspicious parrotfish fact under shark.
+
+“Table is okay.”
+
+Lila nodded.
+
+“Yes.”
+
+“Drawer is okay.”
+
+“Yes.”
+
+“Trash is okay.”
+
+“Yes.”
+
+“Elsewhere is okay.”
+
+“Yes.”
+
+He lay down.
+
+Door half open.
+
+Cole outside.
+
+Nurse Imani at desk.
+
+Lila nearby.
+
+Morro in lounge, finally writing something that was not about him.
+
+Before sleep, Baren asked, “Did adults catch more adults?”
+
+“Yes.”
+
+“Did I have to help?”
+
+“No.”
+
+“Good.”
+
+He turned toward the wall.
+
+“Tomorrow can have the wrong decimal.”
+
+“Yes,” Lila said.
+
+“Good.”
+
+The light dimmed.
+
+The case moved elsewhere.
+
+The child stayed here.
+
+And on the side table, beneath a terrible shark, a suspicious fact waited without proof.
+
+Not everything had to be checked before it could be allowed to sit quietly in the room.
+
+---
+
+## CHAPTER FIFTY-SEVEN
+
+The Wrong Decimal
+
+The wrong decimal waited overnight with admirable patience.
+
+It did not correct itself.
+
+Baren respected that.
+
+At 9:12 a.m., Ms. Rowe placed the worksheet on the table exactly where it had been left the day before. One problem remained unfinished.
+
+0.8 = ?
+
+Baren stared at it.
+
+“Still wrong?”
+
+Ms. Rowe said, “Still waiting.”
+
+“Not angry?”
+
+“No.”
+
+“Good.”
+
+He picked up the pencil.
+
+Morro, near the doorway, pretended to review a document unrelated to decimals, which fooled no one, including the decimal.
+
+Baren wrote:
+
+8/10
+
+Then reduced it after a pause.
+
+4/5
+
+Ms. Rowe nodded.
+
+“Correct.”
+
+Baren looked at the page for a moment longer.
+
+“Yesterday it felt too big.”
+
+Lila, seated nearby, said nothing.
+
+Good.
+
+Baren continued.
+
+“Today it is just numbers.”
+
+Ms. Rowe said, “That happens.”
+
+He looked at Morro.
+
+“You want it.”
+
+Morro froze.
+
+“I want what?”
+
+“The sentence.”
+
+“I want many things. Most are denied.”
+
+“Ask.”
+
+Morro took a breath.
+
+“May we use a version for school guidance?”
+
+Baren thought.
+
+“Yes. School only.”
+
+Lila drafted:
+
+A task that feels too large one day may be approachable later when the learner has rested, chosen to return, and is not treated as having failed a character test.
+
+Baren read it.
+
+“Too many words.”
+
+Ms. Rowe wrote a simpler version:
+
+Some wrong answers can wait for tomorrow.
+
+Baren nodded.
+
+“That.”
+
+Morro looked pained but accepted it.
+
+The education advisory gained a small line:
+
+Some wrong answers can wait for tomorrow.
+
+No one made it inspirational.
+
+No one put it over a sunrise.
+
+Morro checked.
+
+Twice.
+
+By 10:00 a.m., the last two sealed defendants were in custody or surrendered.
+
+Adult names.
+
+Adult places.
+
+Adult charges.
+
+The task force released them after child-risk review.
+
+Victor Elysium, founder of Elysium Systems, surrendered through counsel at a federal courthouse. He wore a dark suit, no tie, and the expression of a man who had mistaken inevitability for innocence until paperwork corrected him.
+
+Marian Kade, former director of Mercy Continuity operations, was arrested at a records-storage facility while attempting to access archived material through an expired credential.
+
+The public had expected Victor Elysium eventually.
+
+His name had floated around the edges of the case like smoke that owned lawyers.
+
+But Marian Kade surprised people.
+
+That meant she had done her job well.
+
+Simon knew her.
+
+His face changed when the name was unsealed.
+
+Morro saw.
+
+“Explain.”
+
+Simon swallowed.
+
+“Kade ran logistics. Not public. Not ceremonial. Not strategy language. She made rooms happen.”
+
+“What kind of rooms?”
+
+“All kinds.”
+
+Morro’s eyes sharpened.
+
+“Table Adult?”
+
+“More than that.”
+
+Lila said, “Room Adult.”
+
+Baren’s categories had not included that yet.
+
+Morro wrote it down privately.
+
+Simon continued.
+
+“Kade arranged travel, staff NDAs, minor transport language, counselor schedules, hospitality coding, records pickup, disposal windows, adult-target arrival timing, press quiet periods, medical cover phrases, and post-event summaries.”
+
+Mara, in the newsroom, closed her eyes.
+
+“She made the machine move.”
+
+“Yes,” Simon said.
+
+Morro said, “Public framework?”
+
+Mara answered, already typing.
+
+“Adult logistics.”
+
+“Mechanisms, not mystique.”
+
+The article went live under independent lead:
+
+Elysium Founder and Mercy Operations Director Named in Old Court Indictment
+
+The story explained the charges, the alleged roles, and the court’s continuing child-protection restrictions.
+
+No child faces.
+
+No empty chairs.
+
+No Baren reaction.
+
+High in the body:
+
+Investigators allege that private governance systems depend not only on powerful figureheads, but on operational adults who schedule rooms, move records, manage staff, code travel, control access, and make harmful systems appear administratively ordinary.
+
+Morro approved.
+
+“Good.”
+
+Crowe, appearing by video, said, “Evil needs logistics.”
+
+Morro said, “Public.”
+
+Mara added:
+
+As one advisor put it, “Evil needs logistics.”
+
+Crowe looked both pleased and ashamed.
+
+Morro said, “Adult risk.”
+
+He nodded.
+
+Baren was told after ocean reading.
+
+He had asked whether adults caught the remaining adults.
+
+Lila sat with the category sheet.
+
+“Yes. Two more adult names became public.”
+
+“What kinds?”
+
+“One Money/Data Adult. One Room Adult.”
+
+Baren frowned.
+
+“Room Adult?”
+
+Morro stood near the doorway.
+
+“An adult who makes bad rooms possible. Schedules them. Moves papers. Controls who enters. Makes harm look ordinary.”
+
+Baren looked down at the category sheet.
+
+“That is bad.”
+
+“Yes.”
+
+He wrote:
+
+Room Adults — adults who make bad rooms happen and then say they only handled details.
+
+He paused.
+
+“Details count.”
+
+Morro whispered, “May we—”
+
+Baren pointed.
+
+“Yes. Public. Adults need that.”
+
+The guidance desk issued a shorter correction:
+
+Details count: scheduling, transport, records, access, forms, staffing, supplies, coding, payment, and follow-up can all enable harm.
+
+Rosa approved through counsel.
+
+Tell him logistics always counts.
+
+Baren smiled when told the safe version.
+
+“Rosa knows.”
+
+“Yes.”
+
+“Her mop?”
+
+“Resolved. Good mop restored.”
+
+He nodded solemnly.
+
+“Justice begins.”
+
+Morro almost laughed.
+
+Almost.
+
+Victor Elysium’s surrender changed the public temperature.
+
+Dahlia had been dangerous because she was intimate with the child’s claim.
+
+Victor was dangerous because he made people feel stupid.
+
+He had built systems.
+
+Platforms.
+
+Prediction architecture.
+
+Sentiment engines.
+
+Engagement classifiers.
+
+Public-meaning products.
+
+The public wanted him to be either genius or monster because both categories protected people from understanding that he had also been a vendor.
+
+A very wealthy vendor.
+
+A vendor with philosophy.
+
+The worst kind.
+
+His company statement read:
+
+Elysium Systems denies wrongdoing and maintains that its products were designed for lawful social analysis, risk forecasting, and institutional decision support. We reject any suggestion that Elysium technology was intended to exploit minors or manipulate public meaning.
+
+Morro read it.
+
+“Vendor words.”
+
+Simon nodded.
+
+“Very.”
+
+Mara’s newsroom published a technical explainer.
+
+Not too technical.
+
+Morro had warned against “hiding harm in diagrams.”
+
+The piece explained that Elysium’s tools did not need to control minds. They only needed to measure attention, identify pressure points, forecast reactions, and suggest language likely to preserve institutional advantage.
+
+That was enough.
+
+Mara’s sidebar, reviewed by independent counsel, said:
+
+Manipulation does not require magic. It can be built from ordinary inputs: what people click, fear, share, doubt, praise, punish, and wait for.
+
+“Good. No machine mysticism.”
+
+Crowe muttered, “The demon is a dashboard.”
+
+Morro turned.
+
+He looked surprised at himself.
+
+“Public?”
+
+Morro thought.
+
+“Body. Adult concept.”
+
+Mara added:
+
+The danger, one advisor noted, is not a mystical machine but a dashboard adults obey because it flatters their appetite for control.
+
+Crowe looked relieved to have been translated.
+
+At noon, Baren had lunch and asked what a dashboard was.
+
+Cole explained badly.
+
+“A board with information.”
+
+Baren frowned.
+
+“Like Morro board?”
+
+Morro said, “My board has judgment.”
+
+Cole said, “Dashboards have numbers.”
+
+“Numbers can lie?”
+
+Ms. Rowe, who had stayed for lunch because Baren wanted to show her the shark drawing under the parrotfish card, said, “Numbers can be true and still used to lie.”
+
+Baren nodded immediately.
+
+“That is Data Adult.”
+
+“Yes,” Lila said.
+
+He looked at his decimal worksheet.
+
+“Numbers need adults watched too.”
+
+Morro asked carefully, “May we use that?”
+
+Baren thought.
+
+“Yes.”
+
+The data advisory gained:
+
+The data note became plain: numbers can be accurate in narrow ways and still be used to manipulate; adults remain responsible for how they use them.
+
+Baren reviewed it.
+
+“Lawyer cereal with numbers.”
+
+“Dry but useful?”
+
+“Dry but necessary.”
+
+At 1:00 p.m., the permanent framework order received its first external citation.
+
+A family court judge in another state cited it anonymously in an order blocking a private school from requiring a student to participate in a restorative meeting with an administrator accused of misconduct.
+
+The student was not named.
+
+The order said:
+
+A child’s refusal to participate in institutional repair is not a failure of healing.
+
+Morro read the citation and sat very still.
+
+Lila noticed.
+
+“You okay?”
+
+“No.”
+
+“Good no?”
+
+“Maybe.”
+
+The law had moved.
+
+Not as brand.
+
+Not as Baren Standard.
+
+As principle.
+
+As wall.
+
+Morro forwarded the order to the task force.
+
+Subject line:
+
+USEFUL. NO CELEBRATION.
+
+The assistant deputy undersecretary replied with no emoji.
+
+Baren was told only the safe version.
+
+“A court somewhere else used similar principles to protect another child from being forced into an adult repair meeting.”
+
+Baren looked up.
+
+“Without me?”
+
+“Yes.”
+
+“Good.”
+
+He smiled.
+
+Not because he saved anyone.
+
+Because someone else did not need him.
+
+That was the difference adults had been learning too slowly.
+
+At 2:30, Mara came for puzzle visit with one trust fact.
+
+No receipt.
+
+As promised.
+
+She sat across from Baren and said, “One fact?”
+
+“One.”
+
+“Some sea cucumbers breathe through their butts.”
+
+Baren stared at her.
+
+Cole closed his eyes.
+
+Lila looked at the ceiling.
+
+Morro, in the lounge, said, “Absolutely not guidance.”
+
+Baren considered the fact with grave seriousness.
+
+“Trust fact failed.”
+
+Mara laughed.
+
+“It is true.”
+
+“No receipt?”
+
+“No receipt.”
+
+“Then it is either true or you are testing trust.”
+
+“I am not testing trust.”
+
+“It sounds like a fake fact adults use to see if kids believe them.”
+
+Mara opened her mouth.
+
+Closed it.
+
+“That is fair.”
+
+Baren looked at her for a long time.
+
+Then smiled.
+
+“I believe it halfway.”
+
+“Halfway trust?”
+
+“Yes.”
+
+“Is that allowed?”
+
+“Yes. Fraction trust.”
+
+Ms. Rowe, passing by, said, “Fractions return.”
+
+Baren groaned.
+
+Morro whispered, “This is why math matters.”
+
+Baren pointed toward the lounge.
+
+“No doctrine.”
+
+They worked on the cow puzzle.
+
+The sea cucumber fact sat between them, half believed, unverified, and somehow safe.
+
+Mara did not rush to prove it.
+
+That was the important part.
+
+At 4:00 p.m., Serena visited.
+
+Nothing in hand.
+
+Five minutes requested by Baren.
+
+He asked, “Do you know sea cucumbers?”
+
+Serena blinked.
+
+“Not personally.”
+
+Cole made a sound outside the door.
+
+Baren smiled.
+
+“Good answer.”
+
+Serena asked, “Are we discussing ocean animals?”
+
+“One bad fact.”
+
+“I see.”
+
+He looked at her.
+
+“Can trust be halfway?”
+
+Serena thought.
+
+“Yes.”
+
+“Is that mean?”
+
+“No. Sometimes it is accurate.”
+
+“Can mothers have halfway trust?”
+
+“Yes.”
+
+“Do they get mad?”
+
+“Some do.”
+
+“Will you?”
+
+She took a breath.
+
+“No. I might feel sad. But I will not make you fix it.”
+
+He nodded.
+
+“Good.”
+
+The timer buzzed.
+
+He said, “Done.”
+
+She stood.
+
+“Okay.”
+
+Before leaving, she said, “Thank you for halfway.”
+
+Baren looked at her.
+
+“That was almost too good.”
+
+She smiled.
+
+“I will work on worse.”
+
+“Good.”
+
+At 5:30, Chronald’s counsel sent a request.
+
+Could Baren be told that Chronald had produced all campaign privacy records and would make no further voluntary statements unless the court required them?
+
+Lila asked Baren whether he wanted an update.
+
+“No.”
+
+So he was not told.
+
+Chronald’s counsel received:
+
+No update given. No response requested.
+
+Chronald sent no response.
+
+Good.
+
+Late Adult learning.
+
+That evening, the big machine became louder again.
+
+Victor Elysium’s surrender awakened tech commentary, investor panic, corporate distancing, and an entire swarm of men explaining that predictive analytics had been misunderstood by people who did not appreciate nuance.
+
+Morro read one thread and said, “Nuance is where cowards rent furniture.”
+
+Crowe begged to use it.
+
+Morro said no.
+
+Mara’s newsroom published a technical FAQ:
+
+What Elysium is accused of.
+
+What is not yet proven.
+
+What data tools can and cannot do.
+
+Why engagement prediction can influence institutional choices without mind control.
+
+Why child protection applies even when harm travels through language, metrics, and public expectation rather than direct contact.
+
+Why due process still matters.
+
+Baren did not read it.
+
+He watched an ocean video where a sea turtle ate seagrass without becoming an allegory.
+
+Before bed, Baren finally asked if the wrong decimal had been kept.
+
+Ms. Rowe had left the corrected worksheet in his school folder.
+
+“School folder,” Lila said.
+
+“Not drawer?”
+
+“Not drawer.”
+
+“Not table?”
+
+“Not table.”
+
+“Good.”
+
+“What do you want to keep tonight?”
+
+He looked around.
+
+The side table held ocean card, shark drawing, breakfast card, ordinary pencil, suspicious parrotfish fact, and now one blank space where the sea cucumber fact was not written down.
+
+“Nothing new.”
+
+“Okay.”
+
+He opened the drawer.
+
+Checked.
+
+Closed it.
+
+Only once.
+
+Lila noticed.
+
+He noticed her noticing.
+
+“One check.”
+
+“Yes.”
+
+“Enough.”
+
+“Yes.”
+
+Door half open.
+
+Cole outside.
+
+Nurse Imani at desk.
+
+Morro in lounge, receiving reports about arrests without letting them enter the room.
+
+Before sleep, Baren asked, “If other courts use the wall, does that make it less mine?”
+
+Lila sat beside him.
+
+“It was never yours to carry. But some parts came through you.”
+
+He thought.
+
+“Can a thing help someone else without taking me with it?”
+
+“Yes.”
+
+“Good.”
+
+He turned onto his side.
+
+“Then the wall can go.”
+
+Lila’s eyes stung.
+
+“Okay.”
+
+He closed his eyes.
+
+“Not me.”
+
+“No. Not you.”
+
+The light dimmed.
+
+Elsewhere, adult names moved through courts.
+
+Elsewhere, Victor Elysium prepared a defense.
+
+Elsewhere, Dahlia’s notebook went through privilege review.
+
+Elsewhere, another child did not have to sit in a room built to repair an adult.
+
+Here, the wrong decimal had waited, been corrected, and gone into a school folder.
+
+A wall had moved without dragging the child behind it.
+
+And on the side table, an unwritten sea cucumber fact remained half believed, which was, for the moment, exactly enough trust.
+
+---

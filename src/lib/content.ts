@@ -80,6 +80,8 @@ export type Book = {
   coverImage: string;
   coverTitled: string;
   ogImage: string;
+  sampleDownloadTxt: string;
+  sampleDownloadMd: string;
 };
 
 export type BookDossier = {
@@ -91,6 +93,7 @@ export type BookDossier = {
   buyerSignals: string[];
   forReadersOf: string[];
   mediaAngles: string[];
+  bookQuotes: Array<{ text: string; source: string }>;
   faqs: Array<{ question: string; answer: string }>;
 };
 
@@ -123,6 +126,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-one.png",
     coverTitled: "/images/covers/cover-book-one-titled.png",
     ogImage: "/images/og/og-book-one.png",
+    sampleDownloadTxt: "/downloads/the-last-president-opening-sample.txt",
+    sampleDownloadMd: "/downloads/the-last-president-opening-sample.md",
   },
   {
     id: "children-of-tomorrow",
@@ -150,6 +155,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-two.png",
     coverTitled: "/images/covers/cover-book-two-titled.png",
     ogImage: "/images/og/og-book-two.png",
+    sampleDownloadTxt: "/downloads/children-of-tomorrow-opening-sample.txt",
+    sampleDownloadMd: "/downloads/children-of-tomorrow-opening-sample.md",
   },
   {
     id: "the-black-path",
@@ -177,6 +184,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-three.png",
     coverTitled: "/images/covers/cover-book-three-titled.png",
     ogImage: "/images/og/og-book-three.png",
+    sampleDownloadTxt: "/downloads/the-black-path-opening-sample.txt",
+    sampleDownloadMd: "/downloads/the-black-path-opening-sample.md",
   },
 ];
 
@@ -206,6 +215,20 @@ export const bookDossiers: Record<Book["id"], BookDossier> = {
       "Prophecy as state technology, not mysticism",
       "The ethics of making children symbolic in public narratives",
       "Language as an instrument of power in modern thrillers",
+    ],
+    bookQuotes: [
+      {
+        text: "Every accusation is advertising.",
+        source: "Book One · Chapter Four",
+      },
+      {
+        text: "The storm arrived before the priest.",
+        source: "Book One · Prologue",
+      },
+      {
+        text: "To him not knowing until morning.",
+        source: "Book One · Closing sequence",
+      },
     ],
     faqs: [
       {
@@ -246,6 +269,20 @@ export const bookDossiers: Record<Book["id"], BookDossier> = {
       "Plural harm and why this story refuses single-symbol framing",
       "How the trilogy handles legal language as drama",
     ],
+    bookQuotes: [
+      {
+        text: "Children are not evidence.",
+        source: "Book Two · Controlling sentence",
+      },
+      {
+        text: "He gets to choose his own face.",
+        source: "Book Two · Interlude",
+      },
+      {
+        text: "Some days were allowed to end without becoming part of the case.",
+        source: "Book Two · Final sequence",
+      },
+    ],
     faqs: [
       {
         question: "Do I need Book One first?",
@@ -284,6 +321,20 @@ export const bookDossiers: Record<Book["id"], BookDossier> = {
       "Why refusal is framed as freedom rather than defeat",
       "Designing non-spectacle endings in thriller structures",
       "Ordinary life as the trilogy's final claim",
+    ],
+    bookQuotes: [
+      {
+        text: "Some days refused to become evidence.",
+        source: "Book Three · Chapter Fifty-Five",
+      },
+      {
+        text: "Not as proof. Not as witness. Not as remedy. Not as future.",
+        source: "Book Three · Opening sequence",
+      },
+      {
+        text: "And all, for once, did not ask to be everything.",
+        source: "Book Three · Final sequence",
+      },
     ],
     faqs: [
       {

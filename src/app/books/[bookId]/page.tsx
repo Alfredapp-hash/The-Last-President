@@ -9,7 +9,6 @@ import {
   books,
   getBookById,
   launchCtas,
-  pullQuotes,
   site,
 } from "@/lib/content";
 
@@ -75,10 +74,6 @@ export default function BookPage({ params }: BookPageProps) {
   const prevBook = index > 0 ? books[index - 1] : null;
   const nextBook = index < books.length - 1 ? books[index + 1] : null;
   const label = bookLabel(book.number);
-  const relatedQuotes = pullQuotes.filter((q) =>
-    q.source.toLowerCase().includes(label.toLowerCase()),
-  );
-
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Book",
@@ -129,6 +124,10 @@ export default function BookPage({ params }: BookPageProps) {
               <p className="mt-4 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
                 {book.subtitle} · {book.status}
               </p>
+              <p className="mt-3 text-xs leading-relaxed text-[#8a8578]">
+                Download includes the opening movement(s) from the production
+                manuscript for editorial and buying review.
+              </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <a
                   href={launchCtas.joinLedger}
@@ -141,6 +140,20 @@ export default function BookPage({ params }: BookPageProps) {
                   className="inline-flex rounded-sm border border-[#2a2724] px-4 py-2 text-xs tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
                 >
                   Request Review Copy
+                </a>
+                <a
+                  href={book.sampleDownloadTxt}
+                  download
+                  className="inline-flex rounded-sm border border-[#2a2724] px-4 py-2 text-xs tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
+                >
+                  Download Opening Chapters (TXT)
+                </a>
+                <a
+                  href={book.sampleDownloadMd}
+                  download
+                  className="inline-flex rounded-sm border border-[#2a2724] px-4 py-2 text-xs tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
+                >
+                  Download Opening Chapters (MD)
                 </a>
               </div>
             </div>
@@ -239,10 +252,10 @@ export default function BookPage({ params }: BookPageProps) {
 
             <article className="rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-8">
               <h2 className="font-serif text-2xl text-[#ece8df]">
-                Quoted lines from this volume
+                Real lines from this volume
               </h2>
               <div className="mt-6 space-y-5">
-                {(relatedQuotes.length ? relatedQuotes : pullQuotes.slice(0, 2)).map((q) => (
+                {dossier.bookQuotes.map((q) => (
                   <blockquote key={q.text} className="border-l-2 border-[#2a2724] pl-4">
                     <p className="font-serif text-lg italic text-[#ece8df]/90">
                       &ldquo;{q.text}&rdquo;
