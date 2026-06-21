@@ -1,0 +1,7 @@
+campaign_id,campaign_name,channel,objective,start_date,end_date,budget_usd,target_kpi,current_kpi,status,owner,notes
+CMP-001,Series Awareness Wave,Meta,Reach,2026-07-01,2026-07-14,500,CTR>=1.2%,,Planned,Marketing,Use trilogy hook creatives
+CMP-002,Book One Entry Push,Meta,Traffic,2026-07-15,2026-07-28,750,CPC<=1.20,,Planned,Marketing,Direct to Book One landing
+CMP-003,Email List Growth,TikTok,List Growth,2026-07-15,2026-08-15,600,CPL<=3.50,,Planned,Marketing,Lead magnet sample chapter
+CMP-004,Retarget Site Visitors,Meta,Conversion,2026-08-01,2026-08-21,800,CPA<=12.00,,Planned,Marketing,7/14/30 day audiences
+CMP-005,Launch Week Conversion,Google Search,Conversion,2026-08-20,2026-08-30,700,ROAS>=1.5,,Planned,Marketing,Brand and title intent terms
+CMP-006,Review Acquisition Drive,Email,Engagement,2026-09-01,2026-09-14,0,Review Rate>=12%,,Planned,Marketing,Post-purchase follow-up
