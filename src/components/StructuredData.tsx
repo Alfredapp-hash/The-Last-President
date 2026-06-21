@@ -16,7 +16,7 @@ export function StructuredData() {
       inLanguage: "en",
       author: { "@type": "Person", name: "Alfred App" },
       image: `${site.url}${book.coverTitled}`,
-      url: `${site.url}/#${book.id}`,
+      url: `${site.url}/books/${book.id}`,
       abstract: book.blurb,
       genre: "Literary political thriller",
     })),

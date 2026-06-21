@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Book } from "@/lib/content";
 import { books } from "@/lib/content";
 
@@ -33,7 +34,9 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
               {book.subtitle} · {book.positioning}
             </span>
             <h3 className="mt-3 font-serif text-4xl text-[#ece8df] md:text-5xl">
-              {book.title}
+              <Link href={`/books/${book.id}`} className="transition hover:text-white">
+                {book.title}
+              </Link>
             </h3>
             <p
               className="mt-4 font-serif text-xl italic"
@@ -81,9 +84,17 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
             <p className="font-mono text-[11px] text-[#8a8578] uppercase">
               {book.arc}
             </p>
-            <span className="rounded-sm border border-[#2a2724] px-3 py-1 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-              {book.status}
-            </span>
+            <div className="flex items-center gap-3">
+              <span className="rounded-sm border border-[#2a2724] px-3 py-1 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
+                {book.status}
+              </span>
+              <Link
+                href={`/books/${book.id}`}
+                className="rounded-sm bg-[#c9a962] px-3 py-1 font-mono text-[10px] tracking-widest text-[#070605] uppercase transition hover:bg-[#dbb872]"
+              >
+                Open Page
+              </Link>
+            </div>
           </div>
         </div>
       </div>

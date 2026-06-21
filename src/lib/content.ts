@@ -10,7 +10,7 @@ export const site = {
 } as const;
 
 export const launchCtas = {
-  startReading: "#the-last-president",
+  startReading: "/books/the-last-president",
   pressKit: "/press",
   requestReviewCopy:
     "mailto:hello@thesumpledger.com?subject=Review%20Copy%20Request",
@@ -42,8 +42,8 @@ export const startHereCards = [
     title: "Start with Book One",
     description:
       "Enter through The Last President, where prophecy, media, and dynasty first converge around Baren Sump.",
-    cta: "Read Book One",
-    href: "#the-last-president",
+    cta: "Open Book One Page",
+    href: "/books/the-last-president",
   },
   {
     title: "Read the Press Brief",
@@ -80,6 +80,18 @@ export type Book = {
   coverImage: string;
   coverTitled: string;
   ogImage: string;
+};
+
+export type BookDossier = {
+  marketPosition: string;
+  readerPromise: string;
+  stakes: string;
+  extendedExcerpt: string;
+  excerptContext: string;
+  buyerSignals: string[];
+  forReadersOf: string[];
+  mediaAngles: string[];
+  faqs: Array<{ question: string; answer: string }>;
 };
 
 export const boxSet = "/images/covers/trilogy-box-set.png";
@@ -167,6 +179,130 @@ export const books: Book[] = [
     ogImage: "/images/og/og-book-three.png",
   },
 ];
+
+export const bookDossiers: Record<Book["id"], BookDossier> = {
+  "the-last-president": {
+    marketPosition:
+      "A literary political-thriller opening volume where prophecy behaves like infrastructure and surveillance becomes family policy.",
+    readerPromise:
+      "High-concept institutional dread with a voice-driven, child-centered narrative that rejects fantasy shortcuts.",
+    stakes:
+      "A scorched prediction names Baren Sump and THE LAST PRESIDENT, forcing power centers to decide whether he is prophecy, evidence, or expendable signal.",
+    extendedExcerpt:
+      "Lightning struck the iron towers on the roof again and again, not randomly, not naturally, but with the obedience of something summoned and now regretting the invitation. Elias Sump stood at the laboratory entrance with his hat crushed against his chest, trying to decide whether genius always smelled like burning copper or whether the great inventor had simply begun to rot before dying.",
+    excerptContext: "Prologue · The Inventor's Last Storm",
+    buyerSignals: [
+      "Strong opening hook for premium thriller audiences",
+      "Clear trilogy entry point with immediate conceptual stakes",
+      "Quote-rich language designed for shareability and paid creative",
+      "Institutional thriller architecture with literary cadence",
+    ],
+    forReadersOf: [
+      "Political thrillers with speculative infrastructure",
+      "Literary suspense with moral and legal tension",
+      "Voice-led speculative fiction that avoids genre cliche",
+    ],
+    mediaAngles: [
+      "Prophecy as state technology, not mysticism",
+      "The ethics of making children symbolic in public narratives",
+      "Language as an instrument of power in modern thrillers",
+    ],
+    faqs: [
+      {
+        question: "Is this fantasy?",
+        answer:
+          "No. The trilogy uses speculative political mechanisms, but the narrative frame is procedural and institutional, not magical.",
+      },
+      {
+        question: "Can this be read as a standalone?",
+        answer:
+          "Book One delivers a complete first movement, but it is designed to open the full trilogy arc.",
+      },
+    ],
+  },
+  "children-of-tomorrow": {
+    marketPosition:
+      "The escalation volume: legal pressure, system records, and accountability language tightened to breaking point.",
+    readerPromise:
+      "A courtroom-and-records pressure narrative where the controlling line is non-negotiable: children are not evidence.",
+    stakes:
+      "The Look-Away Ledger turns private harm into public architecture, and every institution touched by the case must answer for what it ignored.",
+    extendedExcerpt:
+      "Baren learned about the plane from a cereal box. Not because the cereal box was haunted. Everyone checked. The look-away file did not shout. It listed. It held. It made forgetting expensive.",
+    excerptContext: "Chapter Twenty-Five · The Mother Key",
+    buyerSignals: [
+      "Powerful controlling sentence with campaign potential",
+      "High retention bridge from Book One to Book Three",
+      "Excellent fit for legal/political thriller crossover audiences",
+      "Review-friendly thematic clarity without reducing complexity",
+    ],
+    forReadersOf: [
+      "Institutional and legal thrillers",
+      "System-accountability fiction",
+      "Speculative narratives with documentary tone",
+    ],
+    mediaAngles: [
+      "The Look-Away Ledger as a narrative accountability device",
+      "Plural harm and why this story refuses single-symbol framing",
+      "How the trilogy handles legal language as drama",
+    ],
+    faqs: [
+      {
+        question: "Do I need Book One first?",
+        answer:
+          "Yes, strongly recommended. Book Two is engineered as escalation and assumes Book One context.",
+      },
+      {
+        question: "What is the tone of Book Two?",
+        answer:
+          "Taut, procedural, and morally sharp—less spectacle, more reckoning.",
+      },
+    ],
+  },
+  "the-black-path": {
+    marketPosition:
+      "The final volume: anti-spectacle ending architecture where refusal, consent, and ordinary life replace heroic theater.",
+    readerPromise:
+      "A rare thriller ending that resolves through moral clarity and availability withdrawn, not escalation for escalation's sake.",
+    stakes:
+      "Baren's final act is to refuse every role power assigns him: proof, witness, remedy, or repair mechanism.",
+    extendedExcerpt:
+      "The black path was not a tunnel beneath the house. It was the route no machine could price because it began with a refusal: the child would not remain available. Not as proof. Not as witness. Not as remedy. Not as future. Only as himself.",
+    excerptContext: "Opening sequence",
+    buyerSignals: [
+      "Distinctive trilogy closer with high critical-discussion value",
+      "Strong positioning for readers tired of formula climaxes",
+      "Quiet-ending differentiation for premium literary audiences",
+      "Memorable closing lines for quote-based marketing",
+    ],
+    forReadersOf: [
+      "Literary thrillers with restraint",
+      "Ethical speculative fiction",
+      "Character-rights-centered political narratives",
+    ],
+    mediaAngles: [
+      "Why refusal is framed as freedom rather than defeat",
+      "Designing non-spectacle endings in thriller structures",
+      "Ordinary life as the trilogy's final claim",
+    ],
+    faqs: [
+      {
+        question: "Is Book Three action-heavy?",
+        answer:
+          "It is pressure-heavy rather than action-heavy. The intensity comes from containment, language, and final moral position.",
+      },
+      {
+        question: "Does the trilogy resolve fully?",
+        answer:
+          "Yes. Book Three is written as the deliberate close of the case file.",
+      },
+    ],
+  },
+};
+
+export function getBookById(id: string): Book | undefined {
+  return books.find((book) => book.id === id);
+}
 
 export const featuredExcerpts = [
   {
