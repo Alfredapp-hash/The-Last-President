@@ -95,9 +95,9 @@ export function BookShowcase() {
   return (
     <section id="books" className="px-6 py-24">
       <div className="mx-auto max-w-6xl">
-        <p className="section-label">The Trilogy</p>
+        <p className="section-label">Volume Briefings</p>
         <h2 className="mt-4 font-serif text-3xl text-[#ece8df] md:text-4xl">
-          Three books. One case file.
+          Three volumes. One pressure system.
         </h2>
         <p className="mt-4 max-w-2xl text-[#8a8578] leading-relaxed">
           Not a chosen-one fantasy. A literary political thriller where children

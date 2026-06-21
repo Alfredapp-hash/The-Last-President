@@ -49,7 +49,7 @@ export const startHereCards = [
     title: "Read the Press Brief",
     description:
       "Get the one-page series framing, approved pull quotes, and book-by-book positioning in one place.",
-    cta: "Open Press Kit",
+    cta: "Open Media Kit",
     href: "/press",
   },
   {
@@ -66,10 +66,7 @@ export type Book = {
   number: number;
   title: string;
   subtitle: string;
-  chapters: string;
-  chapterRange: string;
-  wordCount: string;
-  status: "Available" | "Coming Soon";
+  status: "Entry Volume" | "Escalation Volume" | "Final Volume";
   hook: string;
   positioning: string;
   controlling: string;
@@ -93,10 +90,7 @@ export const books: Book[] = [
     number: 1,
     title: "The Last President",
     subtitle: "Book One",
-    chapters: "Prologue + Interlude + 24 chapters",
-    chapterRange: "Prologue – Ch. 24",
-    wordCount: "~83,000",
-    status: "Coming Soon",
+    status: "Entry Volume",
     hook: "A boy named like an empty field. A dynasty that treats children as receivers.",
     positioning: "The origin file",
     controlling: "Every accusation is advertising.",
@@ -123,10 +117,7 @@ export const books: Book[] = [
     number: 2,
     title: "Children of Tomorrow",
     subtitle: "Book Two",
-    chapters: "Interlude + Chapters 25–54",
-    chapterRange: "Ch. 25 – 54",
-    wordCount: "~88,000",
-    status: "Coming Soon",
+    status: "Escalation Volume",
     hook: "Protection ends. Accountability begins.",
     positioning: "The accountability file",
     controlling: "Children are not evidence.",
@@ -153,10 +144,7 @@ export const books: Book[] = [
     number: 3,
     title: "The Black Path",
     subtitle: "Book Three",
-    chapters: "Chapters 55–84",
-    chapterRange: "Ch. 55 – 84",
-    wordCount: "~62,000",
-    status: "Coming Soon",
+    status: "Final Volume",
     hook: "Not as proof. Not as witness. Not as remedy.",
     positioning: "The refusal file",
     controlling: "Some days refused to become evidence.",

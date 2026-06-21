@@ -37,7 +37,9 @@ export default function PressPage() {
           </div>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-[#ece8df]">At a glance</h2>
+            <h2 className="font-serif text-2xl text-[#ece8df]">
+              Media snapshot
+            </h2>
             <dl className="mt-6 divide-y divide-[#2a2724] rounded-sm border border-[#2a2724] bg-[#0f0e0c]">
               {pressFacts.map(({ label, value }) => (
                 <div key={label} className="grid grid-cols-3 gap-4 px-6 py-4">
@@ -62,7 +64,9 @@ export default function PressPage() {
           </section>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-[#ece8df]">Book blurbs</h2>
+            <h2 className="font-serif text-2xl text-[#ece8df]">
+              Volume briefings
+            </h2>
             <div className="mt-6 space-y-6">
               {books.map((book) => (
                 <article
@@ -123,7 +127,9 @@ export default function PressPage() {
           </section>
 
           <section className="mt-16">
-            <h2 className="font-serif text-2xl text-[#ece8df]">Contact</h2>
+            <h2 className="font-serif text-2xl text-[#ece8df]">
+              Rights and review desk
+            </h2>
             <p className="mt-4 text-[#8a8578]">
               Review copies, interview requests, and rights inquiries:{" "}
               <a

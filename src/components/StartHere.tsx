@@ -5,9 +5,9 @@ export function StartHere() {
   return (
     <section id="start" className="border-y border-[#2a2724] bg-[#0a0908] px-6 py-20">
       <div className="mx-auto max-w-6xl">
-        <p className="section-label">Start Here</p>
+        <p className="section-label">Reader Paths</p>
         <h2 className="mt-4 font-serif text-3xl text-[#ece8df] md:text-4xl">
-          A premium entry into the trilogy.
+          Choose your entry into the ledger.
         </h2>
         <p className="mt-4 max-w-2xl text-[#8a8578] leading-relaxed">
           If you are discovering The Sump Ledger for the first time, begin with

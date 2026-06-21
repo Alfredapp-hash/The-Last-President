@@ -6,7 +6,7 @@ export function CTA() {
       <div className="mx-auto max-w-3xl text-center">
         <p className="section-label">Stay in the Ledger</p>
         <h2 className="mt-4 font-serif text-3xl text-[#ece8df] md:text-4xl">
-          Ready to move from intrigue to purchase?
+          Move from curiosity to commitment.
         </h2>
         <p className="mx-auto mt-5 max-w-xl text-[#8a8578] leading-relaxed">
           Launch updates, excerpt drops, review copies, and rights inquiries for
@@ -29,7 +29,7 @@ export function CTA() {
             href={launchCtas.pressKit}
             className="inline-flex rounded-sm border border-[#2a2724] px-8 py-3.5 text-sm tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
           >
-            Open Press Kit
+            Open Media Kit
           </a>
         </div>
       </div>

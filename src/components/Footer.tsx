@@ -13,27 +13,27 @@ export function Footer() {
             <p className="mt-2 text-sm text-[#8a8578]/80">{site.tagline}</p>
           </div>
           <div>
-            <p className="section-label">Navigate</p>
+            <p className="section-label">Reader Navigation</p>
             <ul className="mt-4 space-y-2 text-sm text-[#8a8578]">
               <li>
                 <a href="#books" className="transition hover:text-[#ece8df]">
-                  The Trilogy
+                  Volume Briefings
                 </a>
               </li>
               <li>
                 <a href="#arc" className="transition hover:text-[#ece8df]">
-                  Series Arc
+                  Narrative Movements
                 </a>
               </li>
               <li>
                 <a href="/press" className="transition hover:text-[#ece8df]">
-                  Press Kit
+                  Media Kit
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <p className="section-label">Contact</p>
+            <p className="section-label">Rights & Review Desk</p>
             <a
               href={`mailto:${site.contactEmail}`}
               className="mt-4 block text-sm text-[#c9a962] transition hover:text-[#e0c078]"

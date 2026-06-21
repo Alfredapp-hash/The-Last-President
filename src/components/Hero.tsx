@@ -42,7 +42,7 @@ export function Hero() {
               href={launchCtas.pressKit}
               className="inline-flex items-center gap-2 rounded-sm border border-[#2a2724] px-7 py-3.5 text-sm tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
             >
-              Press Kit
+              Media Kit
             </Link>
           </div>
           {/* Marketing highlights */}

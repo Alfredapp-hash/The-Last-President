@@ -2,10 +2,10 @@ import Link from "next/link";
 import { site } from "@/lib/content";
 
 const links = [
-  { href: "#start", label: "Start Here" },
-  { href: "#books", label: "Books" },
-  { href: "#quotes", label: "Excerpts" },
-  { href: "/press", label: "Press" },
+  { href: "#start", label: "Begin Reading" },
+  { href: "#books", label: "Volumes" },
+  { href: "#quotes", label: "Quoted Lines" },
+  { href: "/press", label: "Media Kit" },
 ];
 
 export function Header() {
@@ -17,7 +17,7 @@ export function Header() {
             The Sump Ledger
           </span>
           <span className="hidden font-mono text-[10px] tracking-widest text-[#8a8578] uppercase sm:inline">
-            Case File
+            Trilogy Edition
           </span>
         </Link>
         <nav className="flex items-center gap-6 text-[13px] tracking-wide text-[#8a8578]">
@@ -44,7 +44,7 @@ export function Header() {
             href={`mailto:${site.contactEmail}`}
             className="rounded-sm border border-[#2a2724] px-3 py-1.5 text-[#ece8df] transition hover:border-[#9e2b3c]/60 hover:text-white"
           >
-            Contact
+            Rights Desk
           </a>
         </nav>
       </div>
