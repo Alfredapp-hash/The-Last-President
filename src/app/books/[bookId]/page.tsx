@@ -13,17 +13,20 @@ import {
 } from "@/lib/content";
 
 type BookPageProps = {
-  params: {
+  params: Promise<{
     bookId: string;
-  };
+  }>;
 };
 
 export function generateStaticParams() {
   return books.map((book) => ({ bookId: book.id }));
 }
 
-export function generateMetadata({ params }: BookPageProps): Metadata {
-  const book = getBookById(params.bookId);
+export async function generateMetadata({
+  params,
+}: BookPageProps): Promise<Metadata> {
+  const { bookId } = await params;
+  const book = getBookById(bookId);
   if (!book) {
     return {
       title: "Book Not Found",
@@ -64,8 +67,9 @@ function bookLabel(number: number) {
   return number === 1 ? "Book One" : number === 2 ? "Book Two" : "Book Three";
 }
 
-export default function BookPage({ params }: BookPageProps) {
-  const book = getBookById(params.bookId);
+export default async function BookPage({ params }: BookPageProps) {
+  const { bookId } = await params;
+  const book = getBookById(bookId);
   if (!book) {
     notFound();
   }
