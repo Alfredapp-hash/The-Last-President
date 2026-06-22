@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { books, boxSet, pressFacts, pullQuotes, site } from "@/lib/content";
@@ -69,10 +70,12 @@ export default function PressPage() {
             </h2>
             <div className="mt-6 space-y-6">
               {books.map((book) => (
-                <article
+                <Link
                   key={book.id}
-                  className="flex gap-5 rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-6"
+                  href={`/books/${book.id}`}
+                  className="flex gap-5 rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-6 transition hover:border-[#8a8578]/30"
                   style={{ borderLeftColor: book.accent, borderLeftWidth: 3 }}
+                  aria-label={`Open ${book.title} volume page`}
                 >
                   <div className="hidden w-24 shrink-0 overflow-hidden rounded-sm shadow-lg sm:block">
                     <Image
@@ -99,8 +102,11 @@ export default function PressPage() {
                     <p className="mt-3 font-mono text-[10px] tracking-wide text-[#8a8578]/70 uppercase">
                       {book.hook}
                     </p>
+                    <p className="mt-4 font-mono text-[10px] tracking-widest text-[#c9a962] uppercase">
+                      Open volume page →
+                    </p>
                   </div>
-                </article>
+                </Link>
               ))}
             </div>
           </section>

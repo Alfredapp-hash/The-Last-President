@@ -2,8 +2,8 @@ import Link from "next/link";
 import { site } from "@/lib/content";
 
 const links = [
-  { href: "#start", label: "Begin Reading" },
-  { href: "#books", label: "Volumes" },
+  { href: "/books/the-last-president", label: "Begin Reading" },
+  { href: "/books", label: "Volumes" },
   { href: "#quotes", label: "Quoted Lines" },
   { href: "/press", label: "Media Kit" },
 ];

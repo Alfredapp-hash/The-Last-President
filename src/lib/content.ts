@@ -357,18 +357,21 @@ export function getBookById(id: string): Book | undefined {
 
 export const featuredExcerpts = [
   {
+    bookId: "the-last-president",
     title: "Book One · The Last President",
     excerpt:
       "Lightning struck the iron towers on the roof again and again, not randomly, not naturally, but with the obedience of something summoned and now regretting the invitation.",
     source: "Prologue · The Inventor's Last Storm",
   },
   {
+    bookId: "children-of-tomorrow",
     title: "Book Two · Children of Tomorrow",
     excerpt:
       "The Look-Away Ledger did not accuse. It listed. It did not shout. It held. It did not save anyone, but it made forgetting expensive.",
     source: "Middle sequence · The Ledger",
   },
   {
+    bookId: "the-black-path",
     title: "Book Three · The Black Path",
     excerpt:
       "The future did not wait. It was available. That was all. And all, for once, did not ask to be everything.",
@@ -386,6 +389,7 @@ export const interiorPlates = [
 export const arcPhases = [
   {
     phase: "I",
+    bookId: "the-last-president",
     title: "The Machine",
     book: "Book One",
     description:
@@ -393,6 +397,7 @@ export const arcPhases = [
   },
   {
     phase: "II",
+    bookId: "children-of-tomorrow",
     title: "The Ledger",
     book: "Book Two",
     description:
@@ -400,6 +405,7 @@ export const arcPhases = [
   },
   {
     phase: "III",
+    bookId: "the-black-path",
     title: "The Refusal",
     book: "Book Three",
     description:

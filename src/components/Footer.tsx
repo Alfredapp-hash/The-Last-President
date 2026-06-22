@@ -1,4 +1,5 @@
-import { site } from "@/lib/content";
+import Link from "next/link";
+import { books, site } from "@/lib/content";
 
 export function Footer() {
   return (
@@ -16,19 +17,29 @@ export function Footer() {
             <p className="section-label">Reader Navigation</p>
             <ul className="mt-4 space-y-2 text-sm text-[#8a8578]">
               <li>
-                <a href="#books" className="transition hover:text-[#ece8df]">
-                  Volume Briefings
-                </a>
+                <Link href="/books" className="transition hover:text-[#ece8df]">
+                  All Volumes
+                </Link>
               </li>
+              {books.map((book) => (
+                <li key={book.id}>
+                  <Link
+                    href={`/books/${book.id}`}
+                    className="transition hover:text-[#ece8df]"
+                  >
+                    {book.subtitle}: {book.title}
+                  </Link>
+                </li>
+              ))}
               <li>
                 <a href="#arc" className="transition hover:text-[#ece8df]">
                   Narrative Movements
                 </a>
               </li>
               <li>
-                <a href="/press" className="transition hover:text-[#ece8df]">
+                <Link href="/press" className="transition hover:text-[#ece8df]">
                   Media Kit
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

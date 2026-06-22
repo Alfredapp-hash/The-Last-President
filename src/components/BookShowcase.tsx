@@ -108,6 +108,14 @@ export function BookShowcase() {
           are monitored like assets, language becomes a weapon of state, and
           ordinary life can be the quietest victory.
         </p>
+        <p className="mt-4">
+          <Link
+            href="/books"
+            className="font-mono text-[11px] tracking-widest text-[#c9a962] uppercase transition hover:text-[#dbb872]"
+          >
+            Browse all volume pages →
+          </Link>
+        </p>
         <div className="mt-16 space-y-10">
           {books.map((book, i) => (
             <BookPanel key={book.id} book={book} index={i} />

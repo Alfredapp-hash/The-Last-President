@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { featuredExcerpts } from "@/lib/content";
 
 export function FeaturedExcerpts() {
@@ -15,9 +16,11 @@ export function FeaturedExcerpts() {
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {featuredExcerpts.map((item) => (
-            <article
+            <Link
               key={item.title}
-              className="rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-8"
+              href={`/books/${item.bookId}`}
+              className="group block rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-8 transition hover:border-[#8a8578]/25"
+              aria-label={`Read more from ${item.title}`}
             >
               <p className="font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
                 {item.title}
@@ -30,7 +33,10 @@ export function FeaturedExcerpts() {
               <p className="mt-4 font-mono text-[10px] tracking-wide text-[#8a8578]/80 uppercase">
                 {item.source}
               </p>
-            </article>
+              <p className="mt-6 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase transition group-hover:text-[#ece8df]">
+                Open volume page →
+              </p>
+            </Link>
           ))}
         </div>
       </div>
