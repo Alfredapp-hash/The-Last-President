@@ -1,4 +1,5 @@
-import { site } from "@/lib/content";
+import Link from "next/link";
+import { books, site } from "@/lib/content";
 
 export function Footer() {
   return (
@@ -13,27 +14,37 @@ export function Footer() {
             <p className="mt-2 text-sm text-[#8a8578]/80">{site.tagline}</p>
           </div>
           <div>
-            <p className="section-label">Navigate</p>
+            <p className="section-label">Reader Navigation</p>
             <ul className="mt-4 space-y-2 text-sm text-[#8a8578]">
               <li>
-                <a href="#books" className="transition hover:text-[#ece8df]">
-                  The Trilogy
-                </a>
+                <Link href="/books" className="transition hover:text-[#ece8df]">
+                  All Volumes
+                </Link>
               </li>
+              {books.map((book) => (
+                <li key={book.id}>
+                  <Link
+                    href={`/books/${book.id}`}
+                    className="transition hover:text-[#ece8df]"
+                  >
+                    {book.subtitle}: {book.title}
+                  </Link>
+                </li>
+              ))}
               <li>
                 <a href="#arc" className="transition hover:text-[#ece8df]">
-                  Series Arc
+                  Narrative Movements
                 </a>
               </li>
               <li>
-                <a href="/press" className="transition hover:text-[#ece8df]">
-                  Press Kit
-                </a>
+                <Link href="/press" className="transition hover:text-[#ece8df]">
+                  Media Kit
+                </Link>
               </li>
             </ul>
           </div>
           <div>
-            <p className="section-label">Contact</p>
+            <p className="section-label">Rights & Review Desk</p>
             <a
               href={`mailto:${site.contactEmail}`}
               className="mt-4 block text-sm text-[#c9a962] transition hover:text-[#e0c078]"

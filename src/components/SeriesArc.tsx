@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { arcPhases } from "@/lib/content";
 
 export function SeriesArc() {
@@ -9,18 +10,21 @@ export function SeriesArc() {
           One arc. Three movements.
         </h2>
         <p className="mt-4 max-w-2xl text-[#8a8578] leading-relaxed">
-          Continuous chapter numbering from Prologue through Chapter 84. A
-          single case file that moves from prophecy and spectacle to protection,
-          accountability, and refusal.
+          A single case file that moves from prophecy and spectacle to
+          protection, accountability, and refusal. Each book escalates the
+          pressure, then narrows the question: who gets to stay human when
+          institutions need a symbol?
         </p>
 
         <div className="arc-line mt-16 hidden md:block" />
 
         <div className="mt-12 grid gap-8 md:grid-cols-3 md:gap-6">
           {arcPhases.map((phase, i) => (
-            <article
+            <Link
               key={phase.phase}
-              className="relative rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-8 transition hover:border-[#8a8578]/25"
+              href={`/books/${phase.bookId}`}
+              className="group relative block rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-8 transition hover:border-[#8a8578]/25"
+              aria-label={`Open ${phase.book} volume page`}
             >
               <span className="font-mono text-[10px] tracking-[0.3em] text-[#9e2b3c] uppercase">
                 Movement {phase.phase}
@@ -34,13 +38,16 @@ export function SeriesArc() {
               <p className="mt-5 text-sm leading-relaxed text-[#8a8578]">
                 {phase.description}
               </p>
+              <p className="mt-6 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase transition group-hover:text-[#ece8df]">
+                Open volume page →
+              </p>
               {i < arcPhases.length - 1 && (
                 <span
                   className="absolute -right-3 top-1/2 hidden h-2 w-2 -translate-y-1/2 rounded-full bg-[#2a2724] md:block"
                   aria-hidden
                 />
               )}
-            </article>
+            </Link>
           ))}
         </div>
       </div>

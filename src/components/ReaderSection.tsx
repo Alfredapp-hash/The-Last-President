@@ -5,9 +5,9 @@ export function ReaderSection() {
     <section className="px-6 py-24">
       <div className="mx-auto grid max-w-6xl gap-16 lg:grid-cols-2">
         <div>
-          <p className="section-label">The Case File</p>
+          <p className="section-label">Reader Positioning</p>
           <h2 className="mt-4 font-serif text-3xl text-[#ece8df] md:text-4xl">
-            What kind of story is this?
+            Why this trilogy cuts deeper.
           </h2>
           <div className="mt-6 space-y-5 text-[#8a8578] leading-relaxed">
             <p>
