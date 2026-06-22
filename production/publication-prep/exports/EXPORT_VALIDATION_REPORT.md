@@ -1,13 +1,13 @@
 # Export Validation Report
 
-Date: 2026-06-20 21:15 UTC
+Date: 2026-06-22 13:38 UTC
 
 ## Validation summary
 
 | Book | EPUBCheck | PDF pages | PDF size (bytes) |
 |------|-----------|----------:|-----------------:|
 | book-1 | PASS | 375 | 1161215 |
-| book-2 | PASS | 459 | 1320658 |
+| book-2 | PASS | 459 | 1319411 |
 | book-3 | PASS | 364 | 997204 |
 
 ## Raw validation artifacts

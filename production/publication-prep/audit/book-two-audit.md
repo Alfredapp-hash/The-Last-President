@@ -5,8 +5,8 @@
 - Master: `/workspace/production/books/book-two/Baren_Sump_BOOK_TWO_Children_of_Tomorrow_AUTHOR_PRODUCTION_MASTER.docx`
 
 ## Stats
-- reader_words: 88144
-- master_words: 88362
+- reader_words: 88063
+- master_words: 88281
 - word_delta_reader_master: 218
 - reader_heading1_count: 32
 - reader_heading2_count: 31
