@@ -1,61 +1,42 @@
 # Gumroad Readiness — Baren Sump Trilogy
 
-Date: 2026-06-22
+Date: 2026-06-22  
+Status: **SALE READY**
 
-## Spot-check result
+## Full manuscript scan
 
-**PASS** — 3 random chapters per book, seed `20260622`.
+**PASS** — every paragraph in all three reader copies, plus EPUB verification.
 
-Report: `production/publication-prep/gumroad-spot-check/SPOT_CHECK_REPORT.md`
+Report: `production/publication-prep/sale-ready/FULL_MANUSCRIPT_SCAN.md`  
+Sign-off: `production/publication-prep/sale-ready/SALE_SIGNOFF.md`
 
-## Issue found and fixed
+## Sale package (upload from here)
 
-Book Two, end of **Chapter Forty**, contained three leaked author-planning paragraphs (chapter-count / arc-outline notes). Removed from:
+`production/publication-prep/sale-ready/gumroad/`
 
-- `production/books/book-two/Baren_Sump_BOOK_TWO_Children_of_Tomorrow_FINAL_READER_COPY.docx`
-- `production/books/book-two/Baren_Sump_BOOK_TWO_Children_of_Tomorrow_AUTHOR_PRODUCTION_MASTER.docx`
+| Product | Folder | Files |
+|---------|--------|-------|
+| Book One | `book-one-the-last-president/` | EPUB, PDF, cover, `LISTING.md` |
+| Book Two | `book-two-children-of-tomorrow/` | EPUB, PDF, cover, `LISTING.md` |
+| Book Three | `book-three-the-black-path/` | EPUB, PDF, cover, `LISTING.md` |
+| Trilogy bundle | `trilogy-bundle/` | EPUB zip, PDF zip, cover, `LISTING.md` |
 
-Book Two word count after fix: **88,063** (was 88,144).
-
-## Upload files (Gumroad)
-
-| Book | EPUB (recommended) | PDF (optional) |
-|------|------------------|----------------|
-| The Last President | `production/publication-prep/exports/epub/baren-sump-book-1-the-last-president_v1.epub` | `production/publication-prep/exports/pdf/baren-sump-book-1-interior-print_v1.pdf` |
-| Children of Tomorrow | `production/publication-prep/exports/epub/baren-sump-book-2-children-of-tomorrow_v1.epub` | `production/publication-prep/exports/pdf/baren-sump-book-2-interior-print_v1.pdf` |
-| The Black Path | `production/publication-prep/exports/epub/baren-sump-book-3-the-black-path_v1.epub` | `production/publication-prep/exports/pdf/baren-sump-book-3-interior-print_v1.pdf` |
-
-Cover images for product pages:
-
-- `public/images/covers/cover-book-one-titled.png`
-- `public/images/covers/cover-book-two-titled.png`
-- `public/images/covers/cover-book-three-titled.png`
-- `public/images/covers/trilogy-box-set.png` (bundle)
-
-## Validation
-
-- Publication audit: **PASS** (3/3)
-- EPUBCheck: **PASS** (all three)
-- Author-note / meta-note scan: **PASS** after remediation
+Checksums: `production/publication-prep/sale-ready/MANIFEST.json`
 
 ## Gumroad checklist
 
-- [x] Final reader manuscripts validated
-- [x] Random chapter spot-check (3 per book)
-- [x] No author notes / placeholders in checked chapters
-- [x] EPUB exports regenerated after Book Two fix
-- [ ] Create Gumroad product listings (manual)
-- [ ] Set pricing and bundle offer (manual)
-- [ ] Upload cover + EPUB per product (manual)
+- [x] Full manuscript scan (all paragraphs)
+- [x] No author notes / placeholders
+- [x] EPUB exports validated (EPUBCheck)
+- [x] Sale-ready package with listing copy assembled
+- [ ] Create four Gumroad products (3 singles + bundle)
+- [ ] Set pricing and publish
 
-## Re-run spot check
-
-```bash
-python3 scripts/gumroad_spot_check.py --seed 20260622
-```
-
-To remove known author-note patterns if they reappear:
+## Regenerate everything
 
 ```bash
-python3 scripts/gumroad_spot_check.py --fix-known-notes
+python3 scripts/publication_prep_audit.py
+python3 scripts/run_publication_exports.py
+python3 scripts/final_manuscript_scan.py
+python3 scripts/prepare_sale_package.py
 ```

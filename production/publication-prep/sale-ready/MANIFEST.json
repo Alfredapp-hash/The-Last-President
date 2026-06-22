@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-06-22T13:51:49Z",
+  "files": [
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-one-the-last-president/the-last-president.epub",
+      "sha256": "10a43c7ed37b7d3c08231060f94ec0f98f6a91de3d3d9b6f623666e514c2006b",
+      "bytes": "4901802"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-one-the-last-president/the-last-president.pdf",
+      "sha256": "daba256d202824bf3c017b5c39e8d8bd654c0bfafa1a7e8557daed30831c4b34",
+      "bytes": "1161215"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-one-the-last-president/cover.png",
+      "sha256": "8c2b1a4ec4742c539cb8954f26fdf03d0aaa5f5daaeb86fd59d4b124e3a5c025",
+      "bytes": "4656858"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-two-children-of-tomorrow/children-of-tomorrow.epub",
+      "sha256": "ed08b1237d0c89421bf1a0f64e98932fd2e32a1fe6abefca32d593bc551c488b",
+      "bytes": "3454060"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-two-children-of-tomorrow/children-of-tomorrow.pdf",
+      "sha256": "10f782a2f88b44426a43cabae7b50aefe64e0b967f68b6b602ccfcfa5ddff4e2",
+      "bytes": "1319411"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-two-children-of-tomorrow/cover.png",
+      "sha256": "d8949b07fb2dd116dd9fe8f41f30fa479f096bad3febfdcbf36fb4034b07e16e",
+      "bytes": "3189521"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-three-the-black-path/the-black-path.epub",
+      "sha256": "faaf2a593d5f161615d6ba46edf0759a82d2adaa54148d917e347b81d508804c",
+      "bytes": "4003057"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-three-the-black-path/the-black-path.pdf",
+      "sha256": "8fe52b66ab325b4ceb8670876a2b9afb1d094d1d984c19126a0a99470d597da2",
+      "bytes": "997204"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/book-three-the-black-path/cover.png",
+      "sha256": "5bacf81ac87efed6841535f5850ef99b28b0e70f4afeca45487fd2e5e77e2ca7",
+      "bytes": "3807202"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/trilogy-bundle/baren-sump-trilogy-epub-bundle.zip",
+      "sha256": "4c35e4cb98d344560802a6c44ef3e9f423bc7f877fd4e0ae72d63f1a38b26d47",
+      "bytes": "12355896"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/trilogy-bundle/baren-sump-trilogy-pdf-bundle.zip",
+      "sha256": "28cf44e2ddd3407a9ab96dde04c31e908820f969a4df47955ce7dc06dd5ef9ef",
+      "bytes": "2892556"
+    },
+    {
+      "path": "production/publication-prep/sale-ready/gumroad/trilogy-bundle/trilogy-cover.png",
+      "sha256": "427378cf65b1fd9b082989432cb49857341aaf2f92d449a486cb6d382d051822",
+      "bytes": "4465927"
+    }
+  ]
+}

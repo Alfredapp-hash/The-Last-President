@@ -1,17 +1,21 @@
 # Final Publication Sign-Off
 
-Date: 2026-06-20
+Date: 2026-06-22  
 Series: Baren Sump and The Last President
 
 ## QA result
 
 - Automated publication-prep audit: **PASS**
+- Full manuscript scan (all paragraphs + EPUB): **PASS**
 - Books passing: 3/3
 - Heading structure: PASS
 - Placeholder token leakage: PASS
 - End markers: PASS
+- Author-note / meta-note leakage: PASS (Book Two Chapter Forty remediated)
 
-Reference: `production/publication-prep/audit/SUMMARY.md`
+References:
+- `production/publication-prep/audit/SUMMARY.md`
+- `production/publication-prep/sale-ready/FULL_MANUSCRIPT_SCAN.md`
 
 ## Manuscript package readiness
 
@@ -25,15 +29,20 @@ Reference: `production/publication-prep/audit/SUMMARY.md`
 - [x] Print export workflow documented
 - [x] Distributor submission checklist prepared
 
-## Required manual completions before upload
+## Digital sale readiness (Gumroad)
 
-- [x] Fill ISBN values in `metadata/retailer-metadata.csv`
+- [x] Full manuscript scan completed
+- [x] EPUB exports validated with EPUBCheck
+- [x] Sale-ready package assembled with listing copy
+- [x] Checksum manifest generated
+- [ ] Create Gumroad product listings (manual)
+- [ ] Set pricing and publish (manual)
+
+## Required manual completions before wider retail upload
+
 - [ ] Confirm BISAC codes against distributor UI
-- [x] Set publication dates and pricing
-- [x] Export final EPUBs and validate with EPUBCheck
-- [x] Export final print-ready interiors and cover wraps
-- [ ] Upload to distribution platforms
+- [ ] Upload to additional distribution platforms (KDP, Ingram, etc.)
 
 ## Status
 
-**READY FOR DISTRIBUTION UPLOAD**
+**SALE READY (DIGITAL)** — upload from `production/publication-prep/sale-ready/gumroad/`

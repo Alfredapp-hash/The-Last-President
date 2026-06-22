@@ -9,7 +9,7 @@
 - Subtitle: Book Two
 - Author: Alfred App
 - Language: English
-- Word count: 88,144 (reader copy audit)
+- Word count: 88,063 (reader copy audit)
 - Status: Production ready (query/beta)
 
 ## BISAC recommendations (verify with distributor before upload)
