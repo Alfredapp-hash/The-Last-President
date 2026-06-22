@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build downloadable opening sample files from production manuscripts."""
+"""Build downloadable first-3-chapter sample files from production manuscripts."""
 
 from __future__ import annotations
 
@@ -80,17 +80,40 @@ def extract_sections(doc: Document) -> list[tuple[str, list[str]]]:
     return sections
 
 
+def select_first_three_chapters(
+    sections: list[tuple[str, list[str]]],
+) -> list[tuple[str, list[str]]]:
+    """Include opening prologue when present, then the first three numbered chapters."""
+    selected: list[tuple[str, list[str]]] = []
+    start = 0
+    if sections and sections[0][0] == "PROLOGUE":
+        selected.append(sections[0])
+        start = 1
+
+    chapter_sections = [s for s in sections[start:] if s[0].startswith("CHAPTER ")]
+    selected.extend(chapter_sections[:3])
+    return selected
+
+
 def build_sample(cfg: BookSampleConfig) -> None:
     doc = Document(str(cfg.source_docx))
-    sections = extract_sections(doc)[:3]
+    sections = select_first_three_chapters(extract_sections(doc))
     if not sections:
         raise RuntimeError(f"No narrative sections found in {cfg.source_docx}")
 
+    chapter_count = sum(1 for heading, _ in sections if heading.startswith("CHAPTER "))
+    includes_prologue = sections[0][0] == "PROLOGUE"
+    scope_line = (
+        "This sample includes the prologue plus the first three chapters."
+        if includes_prologue
+        else "This sample includes the first three chapters."
+    )
+
     header = [
         f"{cfg.title} ({cfg.subtitle})",
-        "Opening Sample",
+        "First 3 Chapters — Reader Sample",
         "",
-        "This sample includes the opening movement(s) from the production manuscript.",
+        scope_line,
         "For review copies, rights, or media inquiries: hello@thesumpledger.com",
         "",
         "-" * 72,
@@ -101,9 +124,9 @@ def build_sample(cfg: BookSampleConfig) -> None:
     md_lines = [
         f"# {cfg.title} ({cfg.subtitle})",
         "",
-        "## Opening Sample",
+        "## First 3 Chapters — Reader Sample",
         "",
-        "This sample includes the opening movement(s) from the production manuscript.",
+        scope_line,
         "For review copies, rights, or media inquiries: hello@thesumpledger.com",
         "",
         "---",
@@ -126,12 +149,15 @@ def build_sample(cfg: BookSampleConfig) -> None:
         md_lines.append("")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    txt_path = OUT_DIR / f"{cfg.slug}-opening-sample.txt"
-    md_path = OUT_DIR / f"{cfg.slug}-opening-sample.md"
+    txt_path = OUT_DIR / f"{cfg.slug}-first-3-chapters.txt"
+    md_path = OUT_DIR / f"{cfg.slug}-first-3-chapters.md"
     txt_path.write_text("\n".join(txt_lines).strip() + "\n", encoding="utf-8")
     md_path.write_text("\n".join(md_lines).strip() + "\n", encoding="utf-8")
-    print(f"Wrote {txt_path}")
-    print(f"Wrote {md_path}")
+    print(
+        f"Wrote {txt_path.name} ({chapter_count} chapters"
+        f"{', with prologue' if includes_prologue else ''})"
+    )
+    print(f"Wrote {md_path.name}")
 
 
 def main() -> None:

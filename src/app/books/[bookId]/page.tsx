@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BookSampleDownload } from "@/components/BookSampleDownload";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import {
@@ -129,8 +130,9 @@ export default async function BookPage({ params }: BookPageProps) {
                 {book.subtitle} · {book.status}
               </p>
               <p className="mt-3 text-xs leading-relaxed text-[#8a8578]">
-                Download includes the opening movement(s) from the production
-                manuscript for editorial and buying review.
+                Free reader sample: the first three chapters
+                {book.number === 1 ? " (plus prologue)" : ""} from the
+                production manuscript.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <a
@@ -145,21 +147,8 @@ export default async function BookPage({ params }: BookPageProps) {
                 >
                   Request Review Copy
                 </a>
-                <a
-                  href={book.sampleDownloadTxt}
-                  download
-                  className="inline-flex rounded-sm border border-[#2a2724] px-4 py-2 text-xs tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
-                >
-                  Download Opening Chapters (TXT)
-                </a>
-                <a
-                  href={book.sampleDownloadMd}
-                  download
-                  className="inline-flex rounded-sm border border-[#2a2724] px-4 py-2 text-xs tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
-                >
-                  Download Opening Chapters (MD)
-                </a>
               </div>
+              <BookSampleDownload book={book} className="mt-4" />
             </div>
 
             <div className="rounded-sm border border-[#2a2724] bg-[#0f0e0c] p-8">

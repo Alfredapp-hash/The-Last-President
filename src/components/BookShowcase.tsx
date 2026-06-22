@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookSampleDownload } from "@/components/BookSampleDownload";
 import type { Book } from "@/lib/content";
 import { books } from "@/lib/content";
 
@@ -7,13 +8,16 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
   const reversed = index % 2 === 1;
 
   return (
-    <Link
-      href={`/books/${book.id}`}
-      className="book-card block scroll-mt-28 overflow-hidden rounded-sm border border-[#2a2724] bg-[#0f0e0c] transition hover:border-[#8a8578]/35"
+    <article
+      id={book.id}
+      className="book-card scroll-mt-28 overflow-hidden rounded-sm border border-[#2a2724] bg-[#0f0e0c]"
       style={{ boxShadow: `inset 3px 0 0 ${book.accent}` }}
-      aria-label={`Open ${book.subtitle}: ${book.title}`}
     >
-      <article id={book.id}>
+      <Link
+        href={`/books/${book.id}`}
+        className="block transition hover:border-[#8a8578]/35"
+        aria-label={`Open ${book.subtitle}: ${book.title}`}
+      >
         <div
           className={`grid lg:grid-cols-2 ${reversed ? "lg:[direction:rtl]" : ""}`}
         >
@@ -80,18 +84,23 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
                 ))}
               </ul>
             </div>
-            <div className="mt-10 flex items-center justify-between border-t border-[#2a2724] pt-6">
-              <p className="font-mono text-[11px] text-[#8a8578] uppercase">
-                {book.arc}
-              </p>
-              <span className="rounded-sm border border-[#2a2724] px-3 py-1 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-                Open volume page
-              </span>
-            </div>
+            <p className="mt-10 border-t border-[#2a2724] pt-6 font-mono text-[11px] text-[#8a8578] uppercase">
+              {book.arc}
+            </p>
           </div>
         </div>
-      </article>
-    </Link>
+      </Link>
+
+      <div className="flex flex-col gap-4 border-t border-[#2a2724] bg-[#0a0908] px-10 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-14">
+        <BookSampleDownload book={book} />
+        <Link
+          href={`/books/${book.id}`}
+          className="inline-flex rounded-sm border border-[#2a2724] px-3 py-1.5 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase transition hover:border-[#8a8578]/40 hover:text-[#ece8df]"
+        >
+          Open volume page →
+        </Link>
+      </div>
+    </article>
   );
 }
 

@@ -126,8 +126,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-one.png",
     coverTitled: "/images/covers/cover-book-one-titled.png",
     ogImage: "/images/og/og-book-one.png",
-    sampleDownloadTxt: "/downloads/the-last-president-opening-sample.txt",
-    sampleDownloadMd: "/downloads/the-last-president-opening-sample.md",
+    sampleDownloadTxt: "/downloads/the-last-president-first-3-chapters.txt",
+    sampleDownloadMd: "/downloads/the-last-president-first-3-chapters.md",
   },
   {
     id: "children-of-tomorrow",
@@ -155,8 +155,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-two.png",
     coverTitled: "/images/covers/cover-book-two-titled.png",
     ogImage: "/images/og/og-book-two.png",
-    sampleDownloadTxt: "/downloads/children-of-tomorrow-opening-sample.txt",
-    sampleDownloadMd: "/downloads/children-of-tomorrow-opening-sample.md",
+    sampleDownloadTxt: "/downloads/children-of-tomorrow-first-3-chapters.txt",
+    sampleDownloadMd: "/downloads/children-of-tomorrow-first-3-chapters.md",
   },
   {
     id: "the-black-path",
@@ -184,8 +184,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-three.png",
     coverTitled: "/images/covers/cover-book-three-titled.png",
     ogImage: "/images/og/og-book-three.png",
-    sampleDownloadTxt: "/downloads/the-black-path-opening-sample.txt",
-    sampleDownloadMd: "/downloads/the-black-path-opening-sample.md",
+    sampleDownloadTxt: "/downloads/the-black-path-first-3-chapters.txt",
+    sampleDownloadMd: "/downloads/the-black-path-first-3-chapters.md",
   },
 ];
 
