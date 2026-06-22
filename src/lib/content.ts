@@ -80,8 +80,8 @@ export type Book = {
   coverImage: string;
   coverTitled: string;
   ogImage: string;
-  sampleDownloadTxt: string;
-  sampleDownloadMd: string;
+  sampleDownloadEpub: string;
+  sampleDownloadPdf: string;
 };
 
 export type BookDossier = {
@@ -126,8 +126,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-one.png",
     coverTitled: "/images/covers/cover-book-one-titled.png",
     ogImage: "/images/og/og-book-one.png",
-    sampleDownloadTxt: "/downloads/the-last-president-first-3-chapters.txt",
-    sampleDownloadMd: "/downloads/the-last-president-first-3-chapters.md",
+    sampleDownloadEpub: "/downloads/the-last-president-first-3-chapters-sample.epub",
+    sampleDownloadPdf: "/downloads/the-last-president-first-3-chapters-sample.pdf",
   },
   {
     id: "children-of-tomorrow",
@@ -155,8 +155,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-two.png",
     coverTitled: "/images/covers/cover-book-two-titled.png",
     ogImage: "/images/og/og-book-two.png",
-    sampleDownloadTxt: "/downloads/children-of-tomorrow-first-3-chapters.txt",
-    sampleDownloadMd: "/downloads/children-of-tomorrow-first-3-chapters.md",
+    sampleDownloadEpub: "/downloads/children-of-tomorrow-first-3-chapters-sample.epub",
+    sampleDownloadPdf: "/downloads/children-of-tomorrow-first-3-chapters-sample.pdf",
   },
   {
     id: "the-black-path",
@@ -184,8 +184,8 @@ export const books: Book[] = [
     coverImage: "/images/covers/cover-book-three.png",
     coverTitled: "/images/covers/cover-book-three-titled.png",
     ogImage: "/images/og/og-book-three.png",
-    sampleDownloadTxt: "/downloads/the-black-path-first-3-chapters.txt",
-    sampleDownloadMd: "/downloads/the-black-path-first-3-chapters.md",
+    sampleDownloadEpub: "/downloads/the-black-path-first-3-chapters-sample.epub",
+    sampleDownloadPdf: "/downloads/the-black-path-first-3-chapters-sample.pdf",
   },
 ];
 

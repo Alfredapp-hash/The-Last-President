@@ -130,9 +130,9 @@ export default async function BookPage({ params }: BookPageProps) {
                 {book.subtitle} · {book.status}
               </p>
               <p className="mt-3 text-xs leading-relaxed text-[#8a8578]">
-                Free reader sample: the first three chapters
-                {book.number === 1 ? " (plus prologue)" : ""} from the
-                production manuscript.
+                Complimentary reader sample with branded cover, front matter, and
+                the first three chapters
+                {book.number === 1 ? " (plus prologue)" : ""} in EPUB or PDF.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <a

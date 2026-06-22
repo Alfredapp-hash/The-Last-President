@@ -3,24 +3,37 @@ import type { Book } from "@/lib/content";
 type BookSampleDownloadProps = {
   book: Book;
   className?: string;
+  compact?: boolean;
 };
 
-export function BookSampleDownload({ book, className = "" }: BookSampleDownloadProps) {
+export function BookSampleDownload({
+  book,
+  className = "",
+  compact = false,
+}: BookSampleDownloadProps) {
   return (
     <div className={`flex flex-wrap gap-2 ${className}`}>
       <a
-        href={book.sampleDownloadTxt}
+        href={book.sampleDownloadEpub}
         download
-        className="inline-flex rounded-sm border border-[#2a2724] px-3 py-1.5 font-mono text-[10px] tracking-wide text-[#ece8df] uppercase transition hover:border-[#8a8578]/40"
+        className={`inline-flex items-center rounded-sm bg-[#c9a962] font-mono tracking-wide text-[#070605] uppercase transition hover:bg-[#dbb872] ${
+          compact
+            ? "px-3 py-1.5 text-[10px]"
+            : "px-4 py-2 text-[11px] font-medium"
+        }`}
       >
-        First 3 Chapters (TXT)
+        Sample EPUB
       </a>
       <a
-        href={book.sampleDownloadMd}
+        href={book.sampleDownloadPdf}
         download
-        className="inline-flex rounded-sm border border-[#2a2724] px-3 py-1.5 font-mono text-[10px] tracking-wide text-[#ece8df] uppercase transition hover:border-[#8a8578]/40"
+        className={`inline-flex items-center rounded-sm border border-[#2a2724] font-mono tracking-wide text-[#ece8df] uppercase transition hover:border-[#8a8578]/40 ${
+          compact
+            ? "px-3 py-1.5 text-[10px]"
+            : "px-4 py-2 text-[11px]"
+        }`}
       >
-        First 3 Chapters (MD)
+        Sample PDF
       </a>
     </div>
   );

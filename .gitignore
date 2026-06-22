@@ -127,3 +127,4 @@ yarn-error.log*
 # yarn v3
 !.yarn/versions
 scripts/__pycache__/
+production/sample-assets/build/

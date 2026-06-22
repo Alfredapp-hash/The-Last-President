@@ -91,8 +91,13 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
         </div>
       </Link>
 
-      <div className="flex flex-col gap-4 border-t border-[#2a2724] bg-[#0a0908] px-10 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-14">
-        <BookSampleDownload book={book} />
+      <div className="flex flex-col gap-3 border-t border-[#2a2724] bg-[#0a0908] px-10 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-14">
+        <div>
+          <p className="font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
+            Reader sample
+          </p>
+          <BookSampleDownload book={book} className="mt-2" compact />
+        </div>
         <Link
           href={`/books/${book.id}`}
           className="inline-flex rounded-sm border border-[#2a2724] px-3 py-1.5 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase transition hover:border-[#8a8578]/40 hover:text-[#ece8df]"

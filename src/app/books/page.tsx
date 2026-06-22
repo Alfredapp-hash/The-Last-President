@@ -84,9 +84,9 @@ export default function BooksIndexPage() {
                 </Link>
                 <div className="border-t border-[#2a2724] bg-[#0a0908] p-6">
                   <p className="mb-3 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-                    Free sample
+                    Free sample · EPUB / PDF
                   </p>
-                  <BookSampleDownload book={book} />
+                  <BookSampleDownload book={book} compact />
                 </div>
               </article>
             ))}
