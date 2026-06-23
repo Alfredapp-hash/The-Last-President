@@ -139,8 +139,13 @@ export default async function BookPage({ params }: BookPageProps) {
               </p>
               <p className="mt-3 text-xs leading-relaxed text-[#8a8578]">
                 Complimentary reader sample with branded cover, front matter, and
-                the first three chapters
-                {book.number === 1 ? " (plus prologue)" : ""} in EPUB or PDF.
+                the opening chapters
+                {book.number === 1
+                  ? " (prologue plus chapters 1–3)"
+                  : book.number === 2
+                    ? " (read Book One first)"
+                    : " (read Books One and Two first)"}{" "}
+                in EPUB or PDF.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <BookBuyButton book={book} />

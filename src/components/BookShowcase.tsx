@@ -109,7 +109,7 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
         </div>
         <div>
           <p className="font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-            Free sample · first 3 chapters
+            Free sample · opening chapters
           </p>
           <BookSampleDownload book={book} className="mt-2" compact />
         </div>
