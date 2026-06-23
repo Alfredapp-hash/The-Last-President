@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BookBuyButton } from "@/components/BookBuyButton";
 import { BookSampleDownload } from "@/components/BookSampleDownload";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -95,6 +96,13 @@ export default async function BookPage({ params }: BookPageProps) {
     image: `${site.url}${book.coverTitled}`,
     url: `${site.url}/books/${book.id}`,
     inLanguage: "en",
+    offers: {
+      "@type": "Offer",
+      url: book.gumroadUrl,
+      price: book.priceUsd,
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+    },
   };
 
   return (
@@ -135,9 +143,10 @@ export default async function BookPage({ params }: BookPageProps) {
                 {book.number === 1 ? " (plus prologue)" : ""} in EPUB or PDF.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
+                <BookBuyButton book={book} />
                 <a
                   href={launchCtas.joinLedger}
-                  className="inline-flex rounded-sm bg-[#c9a962] px-4 py-2 text-xs font-medium tracking-wide text-[#070605] transition hover:bg-[#dbb872]"
+                  className="inline-flex rounded-sm border border-[#2a2724] px-4 py-2 text-xs tracking-wide text-[#ece8df] transition hover:border-[#8a8578]/40"
                 >
                   Join Launch List
                 </a>
@@ -148,6 +157,9 @@ export default async function BookPage({ params }: BookPageProps) {
                   Request Review Copy
                 </a>
               </div>
+              <p className="mt-3 font-mono text-[10px] tracking-wide text-[#8a8578] uppercase">
+                Instant EPUB + PDF download via Gumroad
+              </p>
               <BookSampleDownload book={book} className="mt-4" />
             </div>
 

@@ -1,6 +1,6 @@
 export const site = {
   name: "The Sump Ledger",
-  url: "https://thesumpledger.com",
+  url: "https://www.thesumpledger.com",
   tagline:
     "Dark political thrillers about power, prophecy, and the future that's already here.",
   seriesTitle: "Baren Sump and The Last President",
@@ -82,6 +82,8 @@ export type Book = {
   ogImage: string;
   sampleDownloadEpub: string;
   sampleDownloadPdf: string;
+  gumroadUrl: string;
+  priceUsd: number;
 };
 
 export type BookDossier = {
@@ -128,6 +130,8 @@ export const books: Book[] = [
     ogImage: "/images/og/og-book-one.png",
     sampleDownloadEpub: "/downloads/the-last-president-first-3-chapters-sample.epub",
     sampleDownloadPdf: "/downloads/the-last-president-first-3-chapters-sample.pdf",
+    gumroadUrl: "https://salsbury61.gumroad.com/l/lneqtc",
+    priceUsd: 12.99,
   },
   {
     id: "children-of-tomorrow",
@@ -157,6 +161,8 @@ export const books: Book[] = [
     ogImage: "/images/og/og-book-two.png",
     sampleDownloadEpub: "/downloads/children-of-tomorrow-first-3-chapters-sample.epub",
     sampleDownloadPdf: "/downloads/children-of-tomorrow-first-3-chapters-sample.pdf",
+    gumroadUrl: "https://salsbury61.gumroad.com/l/qxixz",
+    priceUsd: 14.99,
   },
   {
     id: "the-black-path",
@@ -186,6 +192,8 @@ export const books: Book[] = [
     ogImage: "/images/og/og-book-three.png",
     sampleDownloadEpub: "/downloads/the-black-path-first-3-chapters-sample.epub",
     sampleDownloadPdf: "/downloads/the-black-path-first-3-chapters-sample.pdf",
+    gumroadUrl: "https://salsbury61.gumroad.com/l/hqtvrx",
+    priceUsd: 12.99,
   },
 ];
 

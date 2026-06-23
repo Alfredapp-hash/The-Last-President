@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BookBuyButton } from "@/components/BookBuyButton";
 import { BookSampleDownload } from "@/components/BookSampleDownload";
 import type { Book } from "@/lib/content";
 import { books } from "@/lib/content";
@@ -91,19 +92,27 @@ function BookPanel({ book, index }: { book: Book; index: number }) {
         </div>
       </Link>
 
-      <div className="flex flex-col gap-3 border-t border-[#2a2724] bg-[#0a0908] px-10 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-14">
+      <div className="flex flex-col gap-4 border-t border-[#2a2724] bg-[#0a0908] px-10 py-5 lg:px-14">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p className="font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
+              Buy the full volume
+            </p>
+            <BookBuyButton book={book} className="mt-2" compact />
+          </div>
+          <Link
+            href={`/books/${book.id}`}
+            className="inline-flex rounded-sm border border-[#2a2724] px-3 py-1.5 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase transition hover:border-[#8a8578]/40 hover:text-[#ece8df]"
+          >
+            Open volume page →
+          </Link>
+        </div>
         <div>
           <p className="font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-            Reader sample
+            Free sample · first 3 chapters
           </p>
           <BookSampleDownload book={book} className="mt-2" compact />
         </div>
-        <Link
-          href={`/books/${book.id}`}
-          className="inline-flex rounded-sm border border-[#2a2724] px-3 py-1.5 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase transition hover:border-[#8a8578]/40 hover:text-[#ece8df]"
-        >
-          Open volume page →
-        </Link>
       </div>
     </article>
   );

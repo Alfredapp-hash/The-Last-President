@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { BookBuyButton } from "@/components/BookBuyButton";
 import { BookSampleDownload } from "@/components/BookSampleDownload";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
@@ -82,11 +83,19 @@ export default function BooksIndexPage() {
                     </p>
                   </div>
                 </Link>
-                <div className="border-t border-[#2a2724] bg-[#0a0908] p-6">
-                  <p className="mb-3 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
-                    Free sample · EPUB / PDF
-                  </p>
-                  <BookSampleDownload book={book} compact />
+                <div className="space-y-4 border-t border-[#2a2724] bg-[#0a0908] p-6">
+                  <div>
+                    <p className="mb-3 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
+                      Buy full volume
+                    </p>
+                    <BookBuyButton book={book} compact />
+                  </div>
+                  <div>
+                    <p className="mb-3 font-mono text-[10px] tracking-widest text-[#8a8578] uppercase">
+                      Free sample · EPUB / PDF
+                    </p>
+                    <BookSampleDownload book={book} compact />
+                  </div>
                 </div>
               </article>
             ))}
