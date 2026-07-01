@@ -3,6 +3,7 @@ import { Cormorant_Garamond, DM_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { site } from "@/lib/content";
 import { StructuredData } from "@/components/StructuredData";
+import { Analytics } from "@vercel/analytics/next";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -85,6 +86,7 @@ export default function RootLayout({
       <body className="grain min-h-full antialiased">
         <StructuredData />
         {children}
+        <Analytics />
       </body>
     </html>
   );
